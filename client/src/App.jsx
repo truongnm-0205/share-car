@@ -1,9 +1,14 @@
-import { useState } from 'react';
+import Login from "./User/Login";
+import { Routes, Route } from "react-router-dom";
+import Register from "./User/Register";
 
-import './App.css';
 
 function App() {
-	return <div className="App">Hello</div>;
+	return <Routes>
+		<Route index path="/" element={<Login />} />
+		<Route path="/login" element={<Login />} />
+		<Route path="/register" element={<Register/>} />
+	</Routes>
 }
 
 export default App;
