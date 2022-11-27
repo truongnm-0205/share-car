@@ -5,7 +5,7 @@ module.exports = {
 	// driverId: DataTypes.INTEGER,
 	// rate: DataTypes.INTEGER,
 	async up(queryInterface, Sequelize) {
-		await queryInterface.createTable('userRates', {
+		await queryInterface.createTable('UserRates', {
 			id: {
 				allowNull: false,
 				autoIncrement: true,
@@ -15,7 +15,7 @@ module.exports = {
 			userId: {
 				type: Sequelize.INTEGER,
 				references: {
-					model: 'users',
+					model: 'Users',
 					key: 'id',
 				},
 				onDelete: 'CASCADE',
@@ -23,7 +23,7 @@ module.exports = {
 			driverId: {
 				type: Sequelize.INTEGER,
 				references: {
-					model: 'drivers',
+					model: 'Drivers',
 					key: 'id',
 				},
 				onDelete: 'CASCADE',
@@ -42,6 +42,6 @@ module.exports = {
 		});
 	},
 	async down(queryInterface, Sequelize) {
-		await queryInterface.dropTable('userRates');
+		await queryInterface.dropTable('UserRates');
 	},
 };

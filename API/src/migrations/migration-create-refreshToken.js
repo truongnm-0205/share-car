@@ -8,7 +8,7 @@ module.exports = {
 	// phone_number: DataTypes.STRING,
 	// role: DataTypes.INTEGER,
 	async up(queryInterface, Sequelize) {
-		await queryInterface.createTable('refreshtokens', {
+		await queryInterface.createTable('RefreshTokens', {
 			id: {
 				allowNull: false,
 				autoIncrement: true,
@@ -21,6 +21,6 @@ module.exports = {
 		});
 	},
 	async down(queryInterface, Sequelize) {
-		await queryInterface.dropTable('refreshtokens');
+		await queryInterface.dropTable('RefreshTokens');
 	},
 };

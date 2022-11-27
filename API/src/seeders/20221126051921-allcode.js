@@ -13,7 +13,7 @@ module.exports = {
 		 * }], {});
 		 */
 		await queryInterface.bulkInsert(
-			'all_codes',
+			'AllCodes',
 			[
 				{
 					codeName: 'R1',

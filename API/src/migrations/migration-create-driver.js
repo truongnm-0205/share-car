@@ -6,7 +6,7 @@ module.exports = {
 	 *      max_user: DataTypes.STRING,
 	 */
 	async up(queryInterface, Sequelize) {
-		await queryInterface.createTable('drivers', {
+		await queryInterface.createTable('Drivers', {
 			id: {
 				allowNull: false,
 				autoIncrement: true,
@@ -33,6 +33,6 @@ module.exports = {
 		});
 	},
 	async down(queryInterface, Sequelize) {
-		await queryInterface.dropTable('drivers');
+		await queryInterface.dropTable('Drivers');
 	},
 };
