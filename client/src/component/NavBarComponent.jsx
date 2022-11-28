@@ -7,16 +7,16 @@ import axios from 'axios';
 export default function NavBarComponent(props) {
 	const user = useSelector((state) => state.user);
 
-	const logOut = () => {
-		if (confirm(`Log out account ${user.data.username}`)) {
-			postToServerWithToken('/v1/auth/logout', { id: user.data.id }, user.data.accessToken)
-				.then((result) => {
-					toast.success(result);
-					nav('/login');
-				})
-				.catch((text) => toast.error(text))
-				.finally(() => setLoading(false));
-		}
+	const logOut = async () => {
+		try {
+			if (confirm(`Log out account ${user.data.username}`)) {
+				console.log(user.data.accessToken);
+				const res = await axios.post('http://localhost:8081/v1/auth/logout', {
+					headers: {token: `Bearer ${user.data.accessToken}` },
+				});
+				toast.success(res.status);
+			}
+		} catch (error) {}
 	};
 
 	return (

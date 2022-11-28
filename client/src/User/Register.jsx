@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ButtonComponent from '../component/ButtonComponent';
 import { postToServer } from '../services/getAPI';
 import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 
 export default function Register(props) {
 	const [userName, setUserName] = useState('');
@@ -11,6 +12,7 @@ export default function Register(props) {
 	const [passwordError, setPasswordError] = useState('');
 	const [confirmPasswordError, setConfirmPasswordError] = useState('');
 	const [loading, setLoading] = useState(false);
+	const nav = useNavigate();
 
 	const onRegistration = (e) => {
 		if (!userName) setUserNameError('Your name is required');
@@ -25,6 +27,7 @@ export default function Register(props) {
 					setUserName('');
 					setPassword('');
 					setConfirmPassword('');
+					nav('/login');
 				})
 				.catch((text) => toast.error(text.status))
 				.finally(() => setLoading(false));
