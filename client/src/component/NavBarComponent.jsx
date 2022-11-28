@@ -1,19 +1,22 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { postToServerWithToken } from '../services/getAPI';
 import { toast } from 'react-toastify';
 import axios from 'axios';
+import { setData } from '../redux/UserSlice';
+import { useNavigate } from 'react-router-dom';
 
 export default function NavBarComponent(props) {
 	const user = useSelector((state) => state.user);
+	const dispatch = useDispatch();
+	const nav = useNavigate();
 
 	const logOut = async () => {
 		try {
 			if (confirm(`Log out account ${user.data.username}`)) {
 				console.log(user.data.accessToken);
-				const res = await axios.post('http://localhost:8081/v1/auth/logout', {
-					headers: {token: `Bearer ${user.data.accessToken}` },
-				});
+				dispatch(setData(''));
+				nav('/login');
 				toast.success(res.status);
 			}
 		} catch (error) {}

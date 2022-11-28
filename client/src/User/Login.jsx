@@ -59,6 +59,7 @@ export default function Login(props) {
 							setUsernameError('');
 						}}
 						placeholder="User name"
+						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
 					<span className="material-symbols-outlined">person</span>
@@ -82,6 +83,7 @@ export default function Login(props) {
 							setPasswordError;
 						}}
 						placeholder="Password"
+						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
 					<span className="material-symbols-outlined">password</span>

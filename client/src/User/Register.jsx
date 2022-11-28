@@ -58,6 +58,7 @@ export default function Register(props) {
 							setUserNameError('');
 						}}
 						placeholder="User name"
+						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
 					<span className="material-symbols-outlined">person</span>
@@ -81,6 +82,7 @@ export default function Register(props) {
 							setPasswordError('');
 						}}
 						placeholder="Password"
+						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
 					<span className="material-symbols-outlined">password</span>
@@ -104,6 +106,7 @@ export default function Register(props) {
 							setConfirmPasswordError('');
 						}}
 						placeholder="Re-enter Password"
+						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
 					<span className="material-symbols-outlined">password</span>

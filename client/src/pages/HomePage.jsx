@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import NavBarComponent from '../component/NavBarComponent.jsx';
+import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 export default function HomePage() {
+	const user = useSelector((state) => state.user);
+	const nav = useNavigate();
+	if (user.data) {
+		nav('/login');
+	}
 	return (
 		<div
 			className="d-flex flex-column justify-content-center align-items-center"
