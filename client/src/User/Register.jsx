@@ -57,6 +57,7 @@ export default function Register(props) {
 							setUserName(e.target.value);
 							setUserNameError('');
 						}}
+						onKeyDown={e=>{if(e.key === "Enter") onRegistration(e)}}
 						placeholder="User name"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
@@ -81,6 +82,7 @@ export default function Register(props) {
 							setPassword(e.target.value);
 							setPasswordError('');
 						}}
+						onKeyDown={e=>{if(e.key === "Enter") onRegistration(e)}}
 						placeholder="Password"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
@@ -105,6 +107,7 @@ export default function Register(props) {
 							setConfirmPassword(e.target.value);
 							setConfirmPasswordError('');
 						}}
+						onKeyDown={e=>{if(e.key === "Enter") onRegistration(e)}}
 						placeholder="Re-enter Password"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}

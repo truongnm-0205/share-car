@@ -16,7 +16,7 @@ export default function Login(props) {
 	const dispatch = useDispatch();
 	const nav = useNavigate();
 
-	const loginSubmit = () => {
+	const loginSubmit = (e) => {
 		if (!userName) setUsernameError('User name is required');
 		else if (!password) setPasswordError('Password is required');
 		else {
@@ -58,6 +58,7 @@ export default function Login(props) {
 							setUserName(e.target.value);
 							setUsernameError('');
 						}}
+						onKeyDown={e=>{if(e.key === "Enter") loginSubmit(e)}}
 						placeholder="User name"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
@@ -82,6 +83,7 @@ export default function Login(props) {
 							setPassword(e.target.value);
 							setPasswordError;
 						}}
+						onKeyDown={e=>{if(e.key === "Enter") loginSubmit(e)}}
 						placeholder="Password"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
