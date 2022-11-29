@@ -36,7 +36,7 @@ export default function NavBarComponent(props) {
 							backgroundImage: `url("/assets/icon/taxi.png")`,
 							backgroundSize: '100% 100%',
 						}}></div>
-					<h1 className="sc-color">Share Car</h1>
+					<h1 className="sc-color" style={{fontWeight:"600"}}>Share Car</h1>
 					<div className="dropdown">
 						<button
 							className="btn btn-outline-info dropdown-toggle d-flex flex-row align-items-center"
