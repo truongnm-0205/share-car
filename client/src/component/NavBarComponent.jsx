@@ -19,7 +19,7 @@ export default function NavBarComponent(props) {
         nav('/login');
       })
       .catch((text) => toast.error(text));
-    }
+		}
 	};
 
 	return (

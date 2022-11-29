@@ -4,6 +4,7 @@ import Register from './User/Register.jsx';
 import HomePage from './pages/HomePage.jsx';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
+import { toast } from 'react-toastify';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
 
 	useEffect(() => {
     if (!user.data.accessToken && window.location.href!='http://localhost:5173/register') {
+      toast.warning("No account login");
       nav("/login");
-		}
+	  }
 	},[user.data.accessToken])
 
 	return (
