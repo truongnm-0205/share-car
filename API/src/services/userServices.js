@@ -17,7 +17,6 @@ const userServices = {
 	createNewUser: async (data) => {
 		return new Promise(async (resolve, reject) => {
 			try {
-				// console.log(data);
 				let hashed = await bcrypt.hash(data.password, salt);
 				let usernameExist = await db.User.findOne({
 					where: { username: data.username },
@@ -75,6 +74,51 @@ const userServices = {
 				reject(error);
 			}
 		});
+	},
+
+	profileUser: async (data) => {
+		return new Promise(async (resolve, reject) => {
+			try{
+				let user = await db.User.findByPk(data.id);
+				if (user) {
+					return resolve({
+						status: true,
+						statusMessage: 'Get profile user successfully.',
+						data: user,
+					});
+				}
+				resolve({
+					status: false,
+					statusMessage: 'Error',
+				});
+			} catch (error) {
+				reject(error);
+			}
+		})
+	},
+
+	updateUser: async (user, data) => {
+		return new Promise(async (resolve, reject) => {
+			try{
+				delete data.password
+				const userId = user.id
+				let current_user = await db.User.update(data, { where: { id: userId }});
+				if (current_user) {
+					current_user = await db.User.findByPk(userId);
+					resolve({
+						status: true,
+						statusMessage: 'Update profile user successfully.',
+						data: current_user,
+					});
+				} 
+				resolve({
+					status: false,
+					statusMessage: 'Error',
+				});
+			} catch (error) {
+				reject(error);
+			}
+		})
 	},
 };
 export default userServices;
