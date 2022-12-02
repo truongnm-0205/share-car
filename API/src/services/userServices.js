@@ -100,6 +100,7 @@ const userServices = {
 	updateUser: async (user, data) => {
 		return new Promise(async (resolve, reject) => {
 			try{
+				delete data.password
 				const userId = user.id
 				let current_user = await db.User.update(data, { where: { id: userId }});
 				if (current_user) {
