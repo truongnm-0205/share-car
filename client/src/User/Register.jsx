@@ -62,7 +62,7 @@ export default function Register(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">person</span>
+					<span className="material-symbols-outlined sc-color">person</span>
 				</div>
 				{userNameError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -87,7 +87,7 @@ export default function Register(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">password</span>
+					<span className="material-symbols-outlined sc-color">password</span>
 				</div>
 				{passwordError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -112,7 +112,7 @@ export default function Register(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">password</span>
+					<span className="material-symbols-outlined sc-color">password</span>
 				</div>
 				{confirmPasswordError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -130,7 +130,7 @@ export default function Register(props) {
 				</div>
 				<div className="mt-3 d-flex flex-row justify-content-end w-100">
 					<span className="me-1">Already have an account?</span>
-					<a href="/login" className="text-capitalize">
+					<a href="/login" className="text-capitalize sc-color">
 						login
 					</a>
 				</div>

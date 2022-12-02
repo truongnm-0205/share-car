@@ -24,19 +24,21 @@ export default function NavBarComponent(props) {
 
 	return (
 		<nav
-			className="navbar navbar-expand-lg w-100"
-			style={{ backgroundColor: 'white', borderBottom: 'groove', borderColor: '#8ecacb' }}>
+			className="navbar navbar-expand-lg w-100 sc-background-color py-3">
 			<div className="container-fluid">
 				<div className="container d-flex justify-content-between align-items-center">
-					<div
-						className="rounded p-3"
+					<div className='d-flex flex-row justify-content-end align-items-center'>
+          <div
+						className="rounded mb-1"
 						style={{
-							height: '50px',
-							width: '50px',
+							height: '30px',
+							width: '30px',
 							backgroundImage: `url("/assets/icon/taxi.png")`,
 							backgroundSize: '100% 100%',
 						}}></div>
-					<h1 className="sc-color" style={{fontWeight:"600"}}>Share Car</h1>
+					<h2 className="sc-color p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
+          </div>
+					
 					<div className="dropdown">
 						<button
 							className="btn btn-outline-info dropdown-toggle d-flex flex-row align-items-center"

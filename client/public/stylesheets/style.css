@@ -1,11 +1,28 @@
 .sc-color{
-  color: #3c78d8;
+  color: #043d5d;
 }
 
-.sc-background-color {
-  background-color: #3c78d8;
+.sc-background-color{
+  background-color: #043d5d;
 }
 
 .sc-blue-pale{
   background-color: #40bab5;
+}
+
+.btn-primary{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #043d5d !important;
+  --bs-btn-border-color: #043d5d !important;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #4d74b7 !important;
+  --bs-btn-hover-border-color: #4d74b7 !important;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d74b7 !important;
+  --bs-btn-active-border-color: #4d74b7 !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #043d5d !important;
+  --bs-btn-disabled-border-color: #043d5d !important;
 }
