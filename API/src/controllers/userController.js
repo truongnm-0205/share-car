@@ -3,7 +3,7 @@ import { json } from 'sequelize';
 import db from '../models';
 import userServices from '../services/userServices';
 
-const authController = {
+const userController = {
 	profileUser: async (req, res) => {
 		try {
 			const { status, statusMessage, data } = await userServices.profileUser(req.user);
@@ -40,4 +40,4 @@ const authController = {
 		}
   },
 };
-export default authController;
+export default userController;
