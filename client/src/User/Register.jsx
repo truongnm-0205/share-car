@@ -3,6 +3,7 @@ import ButtonComponent from '../component/ButtonComponent';
 import { postToServer } from '../services/getAPI';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+import NavBarComponent from '../component/NavBarComponent';
 
 export default function Register(props) {
 	const [userName, setUserName] = useState('');
@@ -42,6 +43,7 @@ export default function Register(props) {
 				backgroundImage: `url("/assets/images/login_background.jpg")`,
 				backgroundSize: '100% 100%',
 			}}>
+				<NavBarComponent />
 			<div
 				className="d-flex flex-column align-items-center justify-content-center flex-grow-1"
 				style={{ width: '360px' }}>

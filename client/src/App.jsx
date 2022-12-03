@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage.jsx';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { toast } from 'react-toastify';
+import Profile from './pages/setting/Profile.jsx';
 
 
 function App() {
@@ -13,13 +14,14 @@ function App() {
 
 	useEffect(() => {
     if (!user.data.accessToken && window.location.href!='http://localhost:5173/register') {
-      toast.warning("No account login");
+      toast.info("Please login to use. If you don't have an account you can register a new account");
       nav("/login");
 	  }
 	},[user.data.accessToken])
 
 	return (
 		<Routes>
+			<Route path="/profile" element={<Profile/>} />
 			<Route path="/" element={<HomePage />} />
 			<Route path="/login" element={<Login />} />
 			<Route path="/register" element={<Register />} />

@@ -36,12 +36,12 @@ export default function NavBarComponent(props) {
 							backgroundImage: `url("/assets/icon/taxi.png")`,
 							backgroundSize: '100% 100%',
 						}}></div>
-					<h2 className="sc-color p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
+					<h2 className="p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
           </div>
 					
 					<div className="dropdown">
 						<button
-							className="btn btn-outline-info dropdown-toggle d-flex flex-row align-items-center"
+							className="btn btn-outline-light dropdown-toggle d-flex flex-row align-items-center"
 							type="button"
 							data-bs-toggle="dropdown"
 							aria-expanded="false">
@@ -53,11 +53,11 @@ export default function NavBarComponent(props) {
 									backgroundImage: `url("/assets/icon/user-icon.png")`,
 									backgroundSize: '100% 100%',
 								}}></div>
-							<span className="me-1">{user.data.username}</span>
+							<span className="me-1 fw-bold">Welcome: {user.data.username}</span>
 						</button>
 						<ul className="dropdown-menu">
 							<li>
-								<a className="dropdown-item" style={{ cursor: 'pointer' }}>
+								<a className="dropdown-item" href='/profile' style={{ cursor: 'pointer' }}>
 									Profile
 								</a>
 							</li>
