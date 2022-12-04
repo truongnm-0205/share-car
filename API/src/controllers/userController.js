@@ -25,6 +25,7 @@ const userController = {
   updateUser: async (req, res) => {
     try {
 			const { status, statusMessage, data } = await userServices.updateUser(req.user, req.body);
+			delete data.password;
 			if (status) {
 				res.status(200).json({
 					status: statusMessage,
