@@ -18,6 +18,7 @@ export const TextFieldEditable = props => {
       else if(props.value==value) setEditMode(false)
       else {
         props.save(value);
+        setEditMode(false);
       }
     }
   
