@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import { TextFieldEditable } from '../../common/FieldInput';
 import ButtonComponent from '../../component/ButtonComponent';
-import ButtonDangerComponent from '../../component/ButtonDangerComponent';
 import { setDataDriver } from '../../redux/DriverSlice';
 import { callToServerWithTokenAndUserObject } from '../../services/getAPI';
 
@@ -63,7 +62,7 @@ export default function Driver(props){
       </div>
       {
         driver.id ? <div className='mt-5 d-flex justify-content-center'>
-          {loading ? <div className="spinner-grow"></div> : <ButtonDangerComponent label="delete driver account" onClick={deleteDriver}/>}
+          {loading ? <div className="spinner-grow"></div> : <ButtonComponent btnType="btn-danger" label="delete driver account" onClick={deleteDriver}/>}
         </div>
         :
         <div className='mt-5 d-flex justify-content-center'>

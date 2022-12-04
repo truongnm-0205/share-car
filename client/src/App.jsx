@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { toast } from 'react-toastify';
 import Profile from './pages/setting/Profile.jsx';
+import ListCar from './pages/ListCar.jsx';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 
 	return (
 		<Routes>
+			<Route path="/list-car" element={<ListCar />} />
 			<Route path="/profile" element={<Profile/>} />
 			<Route path="/" element={<HomePage />} />
 			<Route path="/login" element={<Login />} />

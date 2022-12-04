@@ -28,15 +28,21 @@ export default function NavBarComponent(props) {
 			<div className="container-fluid">
 				<div className="container d-flex justify-content-between align-items-center">
 					<div className='d-flex flex-row justify-content-end align-items-center'>
-          <div
-						className="rounded mb-1"
-						style={{
-							height: '30px',
-							width: '30px',
-							backgroundImage: `url("/assets/icon/taxi.png")`,
-							backgroundSize: '100% 100%',
-						}}></div>
-					<h2 className="p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
+						<a className='d-flex flex-row align-items-center' href='/' style={{textDecoration:"none"}}>
+							<div
+							className="rounded mb-1"
+							style={{
+								height: '30px',
+								width: '30px',
+								backgroundImage: `url("/assets/icon/taxi.png")`,
+								backgroundSize: '100% 100%',
+							}}></div>
+							<h2 className="p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
+						</a>
+						<a className='d-flex flex-row align-items-center ms-4' href='/list-car' style={{textDecoration:"none",borderLeft:"double",borderColor:"white"}}>
+							<h3 className="p-0 mb-0 ms-4" style={{fontWeight:"600",color:"white"}}>List Car</h3>
+						</a>
+
           </div>
 					
 					<div className="dropdown">
