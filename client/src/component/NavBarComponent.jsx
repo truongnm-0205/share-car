@@ -4,6 +4,7 @@ import { postToServerWithToken } from '../services/getAPI';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { setData } from '../redux/UserSlice';
+import { setDataDriver } from '../redux/DriverSlice';
 
 export default function NavBarComponent(props) {
 	const user = useSelector((state) => state.user);
@@ -16,6 +17,7 @@ export default function NavBarComponent(props) {
       .then((result) => {
         toast.success(result.status);
         dispatch(setData({}));
+		dispatch(setDataDriver({}));
         nav('/login');
       })
       .catch((text) => toast.error(text));
@@ -59,20 +61,22 @@ export default function NavBarComponent(props) {
 									backgroundImage: `url("/assets/icon/user-icon.png")`,
 									backgroundSize: '100% 100%',
 								}}></div>
-							<span className="me-1 fw-bold">Welcome: {user.data.username}</span>
+							<span className="me-1 fw-bold">Welcome {user.data.username}</span>
 						</button>
-						<ul className="dropdown-menu">
-							<li>
-								<a className="dropdown-item" href='/profile' style={{ cursor: 'pointer' }}>
-									Profile
-								</a>
-							</li>
-							<li>
-								<a className="dropdown-item" onClick={logOut} style={{ cursor: 'pointer' }}>
-									Log out
-								</a>
-							</li>
-						</ul>
+						{
+							user.data.accessToken && <ul className="dropdown-menu">
+								<li>
+									<a className="dropdown-item" href='/profile' style={{ cursor: 'pointer' }}>
+										Profile
+									</a>
+								</li>
+								<li>
+									<a className="dropdown-item" onClick={logOut} style={{ cursor: 'pointer' }}>
+										Log out
+									</a>
+								</li>
+							</ul>
+						}
 					</div>
 				</div>
 			</div>

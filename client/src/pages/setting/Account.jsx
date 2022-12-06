@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import { TextFieldEditable } from '../../common/FieldInput';
 import ButtonComponent from '../../component/ButtonComponent';
 import { setData } from '../../redux/UserSlice';
-import { callToServerWithTokenAndUserObject, postToServerWithToken } from '../../services/getAPI';
+import { callToServerWithTokenAndUserObject } from '../../services/getAPI';
 
 export default function Account(props){
   const user = useSelector(state=>state.user.data);
@@ -38,7 +38,7 @@ export default function Account(props){
 
   return <div className='d-flex flex-column my-4 justify-content-center align-items-center w-100'>
     <img src="/assets/icon/user.png" alt="Avatar" className="avatar" style={{border:"double",borderColor:"#043d5d",height:"100px",width:"100px",padding:"5px"}}></img>
-    <div style={{width:"800px"}}>
+    <div style={{width:"600px"}}>
       <div className='d-flex flex-row justify-content-start align-items-center my-4' style={{borderBottom:"double",paddingBottom:"5px"}}>
         <span className='sc-heading text-uppercase' style={{width:"300px"}}>full name:</span>
         <TextFieldEditable fontSize={props.FONT_SIZE} width="100%" disabled={false} value={fullName} save={value=>setFullName(value)} required={true}/>
