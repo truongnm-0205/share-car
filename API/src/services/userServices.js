@@ -24,7 +24,7 @@ const userServices = {
 				if (usernameExist) {
 					return resolve({
 						status: false,
-						statusMessage: 'Username was already exsit.',
+						message: 'Username was already exsit.',
 					});
 				}
 				let newUser = await db.User.create({
@@ -34,7 +34,7 @@ const userServices = {
 				delete newUser.dataValues.password;
 				resolve({
 					status: true,
-					statusMessage: 'Create new user successfully.',
+					message: 'Create new user successfully.',
 					newUser: newUser.dataValues,
 				});
 			} catch (error) {
@@ -53,20 +53,20 @@ const userServices = {
 				if (user == null) {
 					resolve({
 						status: false,
-						statusMessage: 'Wrong username!',
+						message: 'Wrong username!',
 					});
 				}
 				let validPassword = await bcrypt.compare(data.password, user.password);
 				if (!validPassword) {
 					resolve({
 						status: false,
-						statusMessage: 'Wrong password!',
+						message: 'Wrong password!',
 					});
 				}
 				if (user && validPassword) {
 					resolve({
 						status: true,
-						statusMessage: 'Login successfully',
+						message: 'Login successfully',
 						user,
 					});
 				}
@@ -76,49 +76,57 @@ const userServices = {
 		});
 	},
 
-	profileUser: async (data) => {
+	getUserProfileById: async (id) => {
 		return new Promise(async (resolve, reject) => {
-			try{
-				let user = await db.User.findByPk(data.id);
+			try {
+				let user = await db.User.findOne({
+					attributes: ['img', 'email', 'address', 'age', 'phoneNumber'],
+					where: { id: id },
+				});
+
+				console.log(user);
 				if (user) {
 					return resolve({
 						status: true,
-						statusMessage: 'Get profile user successfully.',
+						message: 'Get profile user successfully.',
 						data: user,
 					});
 				}
 				resolve({
 					status: false,
-					statusMessage: 'Error',
+					message: 'Error',
 				});
 			} catch (error) {
 				reject(error);
 			}
-		})
+		});
 	},
 
-	updateUser: async (user, data) => {
+	updateUserById: async (id, data) => {
 		return new Promise(async (resolve, reject) => {
-			try{
-				delete data.password
-				const userId = user.id
-				let current_user = await db.User.update(data, { where: { id: userId }});
+			try {
+				const dataUpdate = {
+					img: data.img,
+					email: data.email,
+					address: data.address,
+					age: data.age,
+					phoneNumber: data.phoneNumber,
+				};
+				let current_user = await db.User.update(dataUpdate, { where: { id: id } });
 				if (current_user) {
-					current_user = await db.User.findByPk(userId);
 					resolve({
 						status: true,
-						statusMessage: 'Update profile user successfully.',
-						data: current_user,
+						message: 'Update profile user successfully.',
 					});
-				} 
+				}
 				resolve({
 					status: false,
-					statusMessage: 'Error',
+					message: 'Update profile user failed.',
 				});
 			} catch (error) {
 				reject(error);
 			}
-		})
+		});
 	},
 };
 export default userServices;

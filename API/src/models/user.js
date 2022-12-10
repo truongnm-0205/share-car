@@ -12,20 +12,31 @@ module.exports = (sequelize, DataTypes) => {
 			User.belongsTo(models.AllCode, {
 				foreignKey: 'roleId',
 			});
-			// User.hasMany(models.Driver, {
-			// 	foreignKey: 'userId',
-			// });
+			User.hasMany(models.Car, {
+				foreignKey: 'user_have_one_car',
+			});
+			User.hasMany(models.UserRate, {
+				foreignKey: 'user_userId_rate',
+			});
+			User.hasMany(models.UserRate, {
+				foreignKey: 'user_driverId',
+			});
 		}
 	}
 	User.init(
 		{
 			username: DataTypes.STRING,
 			password: DataTypes.STRING,
-			address: DataTypes.STRING,
-			age: DataTypes.INTEGER,
+			fullName: DataTypes.STRING,
+			email: DataTypes.STRING,
+			img: DataTypes.STRING,
+			age: DataTypes.DATE,
 			phoneNumber: DataTypes.STRING,
+			cardId: DataTypes.STRING,
+			bankId: DataTypes.STRING,
 			roleId: {
 				type: DataTypes.INTEGER,
+				defaultValue: 1,
 				references: {
 					model: 'AllCode',
 					key: 'id',

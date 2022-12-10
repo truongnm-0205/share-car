@@ -5,9 +5,11 @@ import middlewareController from '../middleware/middlewareController';
 const router = express.Router();
 
 // Profile
-router.get('/profile', middlewareController.verifyToken, userController.profileUser);
+router.get('/', middlewareController.verifyToken, userController.profileUser);
 
 // Update profile
-router.post('/update_profile', middlewareController.verifyToken, userController.updateUser);
+router.put('/:id', middlewareController.verifyTokenAndIsYour, userController.updateUser);
 
+// /v1/user/:id (Get)
+// /v1/user/:id (PUT) 
 export default router;
