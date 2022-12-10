@@ -1,42 +1,28 @@
 'use strict';
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-	// name: DataTypes.STRING,
-	// email: DataTypes.STRING,
-	// address: DataTypes.STRING,
-	// age: DataTypes.INTEGER,
-	// phone_number: DataTypes.STRING,
-	// role: DataTypes.INTEGER,
 	async up(queryInterface, Sequelize) {
-		await queryInterface.createTable('Users', {
+		await queryInterface.createTable('Cars', {
 			id: {
 				allowNull: false,
 				autoIncrement: true,
 				primaryKey: true,
 				type: Sequelize.INTEGER,
 			},
-			username: {
+			carName: {
 				type: Sequelize.STRING,
 			},
-			password: {
+			maxUser: {
 				type: Sequelize.STRING,
 			},
-			address: {
+			img: {
 				type: Sequelize.STRING,
 			},
-			age: {
+			status: {
 				type: Sequelize.INTEGER,
 			},
-			phoneNumber: {
-				type: Sequelize.STRING,
-			},
-			roleId: {
+			userId: {
 				type: Sequelize.INTEGER,
-				references: {
-					model: 'AllCodes',
-					key: 'id',
-				},
-				defaultValue: 1,
 			},
 			createdAt: {
 				allowNull: false,
@@ -47,8 +33,19 @@ module.exports = {
 				type: Sequelize.DATE,
 			},
 		});
+    await queryInterface.addConstraint('Cars', {
+			fields: ['userId'],
+			type: 'foreign key',
+			name: 'user_have_one_car',
+			references: {
+				//Required field
+				table: 'Users',
+				field: 'id',
+			},
+		});
 	},
 	async down(queryInterface, Sequelize) {
-		await queryInterface.dropTable('Users');
+		await queryInterface.removeConstraint('Cars', 'user_have_one_car');
+		await queryInterface.dropTable('Cars');
 	},
 };
