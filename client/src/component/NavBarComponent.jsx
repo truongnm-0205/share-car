@@ -4,6 +4,7 @@ import { postToServerWithToken } from '../services/getAPI';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { setData } from '../redux/UserSlice';
+import { setDataDriver } from '../redux/DriverSlice';
 
 export default function NavBarComponent(props) {
 	const user = useSelector((state) => state.user);
@@ -16,30 +17,39 @@ export default function NavBarComponent(props) {
       .then((result) => {
         toast.success(result.status);
         dispatch(setData({}));
+		dispatch(setDataDriver({}));
         nav('/login');
       })
       .catch((text) => toast.error(text));
-    }
+		}
 	};
 
 	return (
 		<nav
-			className="navbar navbar-expand-lg w-100"
-			style={{ backgroundColor: 'white', borderBottom: 'groove', borderColor: '#8ecacb' }}>
+			className="navbar navbar-expand-lg w-100 sc-background-color py-3">
 			<div className="container-fluid">
 				<div className="container d-flex justify-content-between align-items-center">
-					<div
-						className="rounded p-3"
-						style={{
-							height: '50px',
-							width: '50px',
-							backgroundImage: `url("/assets/icon/taxi.png")`,
-							backgroundSize: '100% 100%',
-						}}></div>
-					<h1 className="sc-color">Share Car</h1>
+					<div className='d-flex flex-row justify-content-end align-items-center'>
+						<a className='d-flex flex-row align-items-center' href='/' style={{textDecoration:"none"}}>
+							<div
+							className="rounded mb-1"
+							style={{
+								height: '30px',
+								width: '30px',
+								backgroundImage: `url("/assets/icon/taxi.png")`,
+								backgroundSize: '100% 100%',
+							}}></div>
+							<h2 className="p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
+						</a>
+						<a className='d-flex flex-row align-items-center ms-4' href='/list-car' style={{textDecoration:"none",borderLeft:"double",borderColor:"white"}}>
+							<h3 className="p-0 mb-0 ms-4" style={{fontWeight:"600",color:"white"}}>List Car</h3>
+						</a>
+
+          </div>
+					
 					<div className="dropdown">
 						<button
-							className="btn btn-outline-info dropdown-toggle d-flex flex-row align-items-center"
+							className="btn btn-outline-light dropdown-toggle d-flex flex-row align-items-center"
 							type="button"
 							data-bs-toggle="dropdown"
 							aria-expanded="false">
@@ -51,20 +61,22 @@ export default function NavBarComponent(props) {
 									backgroundImage: `url("/assets/icon/user-icon.png")`,
 									backgroundSize: '100% 100%',
 								}}></div>
-							<span className="me-1">{user.data.username}</span>
+							<span className="me-1 fw-bold">Welcome {user.data.username}</span>
 						</button>
-						<ul className="dropdown-menu">
-							<li>
-								<a className="dropdown-item" style={{ cursor: 'pointer' }}>
-									Profile
-								</a>
-							</li>
-							<li>
-								<a className="dropdown-item" onClick={logOut} style={{ cursor: 'pointer' }}>
-									Log out
-								</a>
-							</li>
-						</ul>
+						{
+							user.data.accessToken && <ul className="dropdown-menu">
+								<li>
+									<a className="dropdown-item" href='/profile' style={{ cursor: 'pointer' }}>
+										Profile
+									</a>
+								</li>
+								<li>
+									<a className="dropdown-item" onClick={logOut} style={{ cursor: 'pointer' }}>
+										Log out
+									</a>
+								</li>
+							</ul>
+						}
 					</div>
 				</div>
 			</div>

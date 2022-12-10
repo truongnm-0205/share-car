@@ -3,6 +3,7 @@ import ButtonComponent from '../component/ButtonComponent';
 import { postToServer } from '../services/getAPI';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+import NavBarComponent from '../component/NavBarComponent';
 
 export default function Register(props) {
 	const [userName, setUserName] = useState('');
@@ -42,6 +43,7 @@ export default function Register(props) {
 				backgroundImage: `url("/assets/images/login_background.jpg")`,
 				backgroundSize: '100% 100%',
 			}}>
+				<NavBarComponent />
 			<div
 				className="d-flex flex-column align-items-center justify-content-center flex-grow-1"
 				style={{ width: '360px' }}>
@@ -62,7 +64,7 @@ export default function Register(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">person</span>
+					<span className="material-symbols-outlined sc-color">person</span>
 				</div>
 				{userNameError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -87,7 +89,7 @@ export default function Register(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">password</span>
+					<span className="material-symbols-outlined sc-color">password</span>
 				</div>
 				{passwordError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -112,7 +114,7 @@ export default function Register(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">password</span>
+					<span className="material-symbols-outlined sc-color">password</span>
 				</div>
 				{confirmPasswordError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -130,7 +132,7 @@ export default function Register(props) {
 				</div>
 				<div className="mt-3 d-flex flex-row justify-content-end w-100">
 					<span className="me-1">Already have an account?</span>
-					<a href="/login" className="text-capitalize">
+					<a href="/login" className="text-capitalize sc-color">
 						login
 					</a>
 				</div>

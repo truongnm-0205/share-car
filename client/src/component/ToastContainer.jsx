@@ -14,6 +14,6 @@ export default function ToastContainerComponent(props) {
     pauseOnFocusLoss
     draggable
     pauseOnHover
-    theme={'light'}
+    theme={'colored'}
   />
 }

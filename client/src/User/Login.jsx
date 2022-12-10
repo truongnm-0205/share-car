@@ -6,6 +6,7 @@ import { setData } from '../redux/UserSlice.jsx';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import NavBarComponent from '../component/NavBarComponent';
 
 export default function Login(props) {
 	const [userName, setUserName] = useState('');
@@ -43,6 +44,7 @@ export default function Login(props) {
 				backgroundImage: `url("/assets/images/login_background.jpg")`,
 				backgroundSize: '100% 100%',
 			}}>
+				<NavBarComponent/>
 			<div
 				className="d-flex flex-column align-items-center justify-content-center flex-grow-1"
 				style={{ width: '360px' }}>
@@ -63,7 +65,7 @@ export default function Login(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">person</span>
+					<span className="material-symbols-outlined sc-color">person</span>
 				</div>
 				{userNameError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -88,7 +90,7 @@ export default function Login(props) {
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
 					/>
-					<span className="material-symbols-outlined">password</span>
+					<span className="material-symbols-outlined sc-color">password</span>
 				</div>
 				{passwordError && (
 					<p className="d-flex align-items-center" style={{ color: 'red', width: '100%' }}>
@@ -99,7 +101,7 @@ export default function Login(props) {
 					</p>
 				)}
 				<div className="d-flex justify-content-end mb-4 text-capitalize" style={{ width: '100%' }}>
-					<a className="text-capitalize" href="#">
+					<a className="text-capitalize sc-color" href="#">
 						forgot Password?
 					</a>
 				</div>
@@ -111,7 +113,7 @@ export default function Login(props) {
 				</div>
 				<div className="mt-3 d-flex flex-row justify-content-end w-100">
 					<span className="me-1">Don't have an account</span>
-					<a href="/register" className="text-capitalize">
+					<a href="/register" className="text-capitalize sc-color">
 						register
 					</a>
 				</div>

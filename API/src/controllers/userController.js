@@ -19,6 +19,7 @@ const userController = {
 			res.status(400).send(error);
 		}
 	},
+
 	updateUser: async (req, res) => {
 		try {
 			const id = req.params.id;
