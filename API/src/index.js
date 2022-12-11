@@ -7,6 +7,7 @@ import authRoute from './routes/auth';
 import userRoute from './routes/user';
 import userCarRoute from './routes/userCar';
 import adminCarRoute from './routes/adminCar';
+import allCodeRoute from './routes/allCode';
 
 dotenv.config();
 
@@ -20,6 +21,7 @@ app.use('/v1/auth', authRoute);
 app.use('/v1/user', userRoute);
 app.use('/v1/user-car', userCarRoute);
 app.use('/v1/admin-car', adminCarRoute);
+app.use('/v1/all-code', allCodeRoute);
 
 connectDB();
 
