@@ -101,28 +101,29 @@ const carServices = {
 			}
 		});
 	},
-	updateCar: async (data) => {},
-	updateStatusRegisterCar: async (data) => {},
+	updateStatusRegisterCar: async (carId, status) => {
+		return new Promise(async (resolve, reject) => {});
+	},
 	deleteCarByCarId: async (carId, userId) => {
 		return new Promise(async (resolve, reject) => {
 			try {
 				const isDelete = await db.Car.destroy({
 					where: {
 						id: carId,
-						userId: userId
+						userId: userId,
 					},
 				});
 				console.log(isDelete);
-				if(isDelete) {
+				if (isDelete) {
 					resolve({
 						status: true,
-						message: "Delete Car Successfully."
-					})
-				}else {
+						message: 'Delete Car Successfully.',
+					});
+				} else {
 					resolve({
 						status: false,
-						message: "Car id not found."
-					})
+						message: 'Car id not found.',
+					});
 				}
 			} catch (error) {}
 		});

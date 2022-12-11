@@ -90,7 +90,7 @@ const authController = {
 			}
 			// create new access token và refresh token
 
-			await db.RefreshToken.destroy({ where: { refresh_token: refreshToken } });
+			await db.RefreshToken.destroy({ where: { token: refreshToken } });
 
 			const newAccessToken = authController.generateAccessToken(user);
 			const newRefreshToken = authController.generateRefreshToken(user);
@@ -109,12 +109,12 @@ const authController = {
 		});
 	},
 	logout: async (req, res) => {
-		await db.RefreshToken.destroy({
-			where: {
-				token: req.cookies.refreshToken,
-			},
-		});
-		res.clearCookie('refreshToken');
+		// await db.RefreshToken.destroy({
+		// 	where: {
+		// 		token: req.cookies.refreshToken,
+		// 	},
+		// });
+		// res.clearCookie('refreshToken');
 		res.status(200).json({ status: 'Logout Succeed' });
 	},
 };

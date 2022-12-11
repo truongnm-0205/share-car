@@ -2,6 +2,11 @@ import carServices from '../services/carServices';
 
 const carController = {
 	registerNewCar: async (req, res) => {
+		if (req.user.roleId === 1) {
+			res.status(400).json({
+				message: "Your can't register car",
+			});
+		}
 		const { status, message, car } = await carServices.createNewCar(req.body, req.user.id);
 		console.log(status, message, car);
 		if (status) {
