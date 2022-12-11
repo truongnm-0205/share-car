@@ -3,7 +3,7 @@ import carServices from '../services/carServices';
 const carController = {
 	registerNewCar: async (req, res) => {
 		if (req.user.roleId === 1) {
-			res.status(400).json({
+			return res.status(400).json({
 				message: "Your can't register car",
 			});
 		}
@@ -52,6 +52,19 @@ const carController = {
 			res.status(200).json({
 				message: message,
 				data: cars,
+			});
+		} else {
+			res.status(400).json({
+				message: message,
+			});
+		}
+	},
+	UpdateStatusRequest: async (req, res) => {
+		const carId = req.params.carId;
+		const { status, message } = await carServices.updateStatusRegisterCar(carId, req.body);
+		if (status) {
+			res.status(200).json({
+				message: message,
 			});
 		} else {
 			res.status(400).json({

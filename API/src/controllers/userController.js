@@ -3,7 +3,7 @@ import userServices from '../services/userServices';
 const userController = {
 	profileUser: async (req, res) => {
 		try {
-			const id = req.user.id;
+			const id = req.params.id;
 			const { status, message, data } = await userServices.getUserProfileById(id);
 			if (status) {
 				res.status(200).json({

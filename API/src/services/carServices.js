@@ -1,3 +1,4 @@
+import { where } from 'sequelize';
 import db from '../models';
 
 const carServices = {
@@ -101,8 +102,31 @@ const carServices = {
 			}
 		});
 	},
-	updateStatusRegisterCar: async (carId, status) => {
-		return new Promise(async (resolve, reject) => {});
+	updateStatusRegisterCar: async (carId, data) => {
+		return new Promise(async (resolve, reject) => {
+			try {
+				const isUpdate = await db.Car.update({ status: data.status }, { where: { id: carId } });
+				if (isUpdate) {
+					const data = await db.Car.findOne({
+						where: {
+							id: carId,
+						},
+					});
+					await db.User.update({ roleId: 3 }, { where: { id: data.userId } });
+					resolve({
+						status: true,
+						message: 'Update status request successfully!',
+					});
+				} else {
+					resolve({
+						status: false,
+						message: 'This car id not found!',
+					});
+				}
+			} catch (error) {
+				reject(error);
+			}
+		});
 	},
 	deleteCarByCarId: async (carId, userId) => {
 		return new Promise(async (resolve, reject) => {
