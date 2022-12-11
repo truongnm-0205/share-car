@@ -8,8 +8,7 @@ const router = express.Router();
 router.get('/:id', middlewareController.verifyToken, userController.profileUser);
 
 // Update profile
-router.put('/:id', middlewareController.verifyToken, userController.updateUser);
+router.put('/', middlewareController.verifyToken, userController.updateUser);
 
-// /v1/user/:id (Get)
-// /v1/user/:id (PUT)
+
 export default router;
