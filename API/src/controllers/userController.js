@@ -1,20 +1,18 @@
-import jwt from 'jsonwebtoken';
-import { json } from 'sequelize';
-import db from '../models';
 import userServices from '../services/userServices';
 
 const userController = {
 	profileUser: async (req, res) => {
 		try {
-			const { status, statusMessage, data } = await userServices.profileUser(req.user);
+			const id = req.params.id;
+			const { status, message, data } = await userServices.getUserProfileById(id);
 			if (status) {
 				res.status(200).json({
-					status: statusMessage,
+					message: message,
 					data: data,
 				});
 			} else {
 				res.status(400).json({
-					status: statusMessage,
+					message: message,
 				});
 			}
 		} catch (error) {
@@ -22,23 +20,22 @@ const userController = {
 		}
 	},
 
-  updateUser: async (req, res) => {
-    try {
-			const { status, statusMessage, data } = await userServices.updateUser(req.user, req.body);
-			delete data.password;
+	updateUser: async (req, res) => {
+		try {
+			const id = req.params.id;
+			const { status, message } = await userServices.updateUserById(id, req.body);
 			if (status) {
 				res.status(200).json({
-					status: statusMessage,
-					data: data,
+					message: message,
 				});
 			} else {
 				res.status(400).json({
-					status: statusMessage,
+					message: message,
 				});
 			}
 		} catch (error) {
 			res.status(400).send(error);
 		}
-  },
+	},
 };
 export default userController;
