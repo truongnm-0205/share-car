@@ -25,7 +25,7 @@ export default function HomePage() {
 						height: '100%',
 						backgroundImage: `url("/assets/images/taxi-car.png")`,
 						backgroundSize: '100% 100%',
-						width: '750px',
+						width: '845px',
 					}}></div>
 				<div className="d-flex flex-column align-items-center justify-content-center">
 					<div style={{ textAlign: 'justify' }}></div>
