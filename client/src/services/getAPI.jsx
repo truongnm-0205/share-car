@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:8080';
+const baseURL = 'http://localhost:5173';
 
 export function postToServer(url, bodyObject) {
 	return new Promise((resolve, reject) =>
