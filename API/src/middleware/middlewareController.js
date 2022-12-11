@@ -17,13 +17,23 @@ const middlewareController = {
 			return res.status(401).json({ status: "You're not authenticated" });
 		}
 	},
+	verifyTokenAndAdminAuth: (req, res, next) => {
+		middlewareController.verifyToken(req, res, () => {
+			if (req.user.roleId == 1) {
+				next();
+			} else {
+				res.status(403).json({ status: "You're not allowed!" });
+			}
+		});
+	},
 	verifyTokenAndIsYour: (req, res, next) => {
 		middlewareController.verifyToken(req, res, () => {
 			// check id trong access token có giống id trong current id trong redux k
+			// update profile get profile
 			if (req.user.id == req.params.id) {
 				next();
 			} else {
-				res.status(403).json("You're not allowed!");
+				res.status(403).json({ status: "You're not allowed!" });
 			}
 		});
 	},

@@ -53,21 +53,23 @@ const authController = {
 			const accessToken = authController.generateAccessToken(user);
 			const refreshToken = authController.generateRefreshToken(user);
 			await db.RefreshToken.create({
-				refresh_token: refreshToken,
-			});
-			res.cookie('refreshToken', refreshToken, {
-				httpOnly: true,
-				secure: false,
-				sameSite: 'strict',
+				token: refreshToken,
 			});
 			delete user.password;
-			res.status(200).json({
-				message: message,
-				data: {
-					...user,
-					accessToken,
-				},
-			});
+			res
+				.status(200)
+				.cookie('refreshToken', refreshToken, {
+					httpOnly: true,
+					secure: false,
+					sameSite: 'strict',
+				})
+				.json({
+					message: message,
+					data: {
+						...user,
+						accessToken,
+					},
+				});
 		}
 	},
 	refreshToken: async (req, res) => {
@@ -76,7 +78,7 @@ const authController = {
 			return res.status(401).json("You're not authenticated");
 		}
 		const refreshTokenExist = await db.RefreshToken.findOne({
-			where: { refresh_token: refreshToken },
+			where: { token: refreshToken },
 			raw: true,
 		});
 		if (refreshTokenExist == null) {
@@ -94,12 +96,11 @@ const authController = {
 			const newRefreshToken = authController.generateRefreshToken(user);
 
 			await db.RefreshToken.create({
-				refresh_token: newRefreshToken,
+				token: newRefreshToken,
 			});
 			res.cookie('refreshToken', newRefreshToken, {
 				httpOnly: true,
 				secure: false,
-				path: '/',
 				sameSite: 'strict',
 			});
 			res.status(200).json({
@@ -108,12 +109,12 @@ const authController = {
 		});
 	},
 	logout: async (req, res) => {
-		// res.clearCookie('refreshToken');
-		// await db.RefreshToken.destroy({
-		// 	where: {
-		// 		refresh_token: req.cookies.refreshToken,
-		// 	},
-		// });
+		await db.RefreshToken.destroy({
+			where: {
+				token: req.cookies.refreshToken,
+			},
+		});
+		res.clearCookie('refreshToken');
 		res.status(200).json({ status: 'Logout Succeed' });
 	},
 };

@@ -10,7 +10,10 @@ module.exports = (sequelize, DataTypes) => {
 		static associate(models) {
 			// define association here
 			Car.belongsTo(models.User, {
-				foreignKey: 'user_have_one_car',
+				foreignKey: 'userId',
+			});
+			Car.belongsTo(models.AllCode, {
+				foreignKey: 'status',
 			});
 		}
 	}
@@ -19,8 +22,20 @@ module.exports = (sequelize, DataTypes) => {
 			carName: DataTypes.STRING,
 			maxUser: DataTypes.STRING,
 			img: DataTypes.STRING,
-			status: DataTypes.INTEGER,
-			userId: DataTypes.INTEGER,
+			status: {
+				type: DataTypes.INTEGER,
+				references: {
+					model: 'AllCode',
+					key: 'id',
+				},
+			},
+			userId: {
+				type: DataTypes.INTEGER,
+				references: {
+					model: 'User',
+					key: 'id',
+				},
+			},
 		},
 		{
 			sequelize,

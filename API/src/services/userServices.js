@@ -42,7 +42,6 @@ const userServices = {
 			}
 		});
 	},
-
 	loginUser: async (data) => {
 		return new Promise(async (resolve, reject) => {
 			try {
@@ -75,7 +74,6 @@ const userServices = {
 			}
 		});
 	},
-
 	getUserProfileById: async (id) => {
 		return new Promise(async (resolve, reject) => {
 			try {
@@ -101,7 +99,6 @@ const userServices = {
 			}
 		});
 	},
-
 	updateUserById: async (id, data) => {
 		return new Promise(async (resolve, reject) => {
 			try {

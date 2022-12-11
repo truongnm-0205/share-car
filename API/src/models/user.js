@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
 				foreignKey: 'roleId',
 			});
 			User.hasMany(models.Car, {
-				foreignKey: 'user_have_one_car',
+				foreignKey: 'userId',
 			});
 			User.hasMany(models.UserRate, {
 				foreignKey: 'user_userId_rate',
@@ -36,7 +36,7 @@ module.exports = (sequelize, DataTypes) => {
 			bankId: DataTypes.STRING,
 			roleId: {
 				type: DataTypes.INTEGER,
-				defaultValue: 1,
+				defaultValue: 2,
 				references: {
 					model: 'AllCode',
 					key: 'id',
