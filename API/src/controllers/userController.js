@@ -22,7 +22,7 @@ const userController = {
 
 	updateUser: async (req, res) => {
 		try {
-			const id = req.params.id;
+			const id = req.user.id;
 			const { status, message } = await userServices.updateUserById(id, req.body);
 			if (status) {
 				res.status(200).json({

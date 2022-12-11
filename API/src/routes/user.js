@@ -8,7 +8,7 @@ const router = express.Router();
 router.get('/:id', middlewareController.verifyToken, userController.profileUser);
 
 // Update profile
-router.put('/:id', middlewareController.verifyTokenAndIsYour, userController.updateUser);
+router.put('/:id', middlewareController.verifyToken, userController.updateUser);
 
 // /v1/user/:id (Get)
 // /v1/user/:id (PUT)

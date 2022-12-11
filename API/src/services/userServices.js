@@ -103,11 +103,14 @@ const userServices = {
 		return new Promise(async (resolve, reject) => {
 			try {
 				const dataUpdate = {
-					img: data.img,
+					fullName: data.fullName,
 					email: data.email,
-					address: data.address,
+					img: data.img,
 					age: data.age,
 					phoneNumber: data.phoneNumber,
+					address: data.address,
+					cardId: data.cardId,
+					bankId: data.bankId,
 				};
 				let current_user = await db.User.update(dataUpdate, { where: { id: id } });
 				if (current_user) {
