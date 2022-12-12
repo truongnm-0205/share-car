@@ -24,13 +24,13 @@ export default function Register(props) {
 			setLoading(true);
 			postToServer('/v1/auth/register', { username: userName, password })
 				.then((result) => {
-					toast.success(result.status);
+					toast.success(result.message);
 					setUserName('');
 					setPassword('');
 					setConfirmPassword('');
 					nav('/login');
 				})
-				.catch((text) => toast.error(text.status))
+				.catch((text) => toast.error(text.message))
 				.finally(() => setLoading(false));
 		}
 	};

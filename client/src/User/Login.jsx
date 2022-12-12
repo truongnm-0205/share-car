@@ -24,11 +24,12 @@ export default function Login(props) {
 			setLoading(true);
 			postToServer('/v1/auth/login', { username: userName, password })
 				.then((result) => {
-					if (result == 'Wrong username!') toast.error(result.status);
+					if (result == 'Wrong username!') toast.error(result.message);
 					else {
-						toast.success(result.status);
+						toast.success(result.message);
 						dispatch(setData(result.data));
-						nav('/');
+						if(result.data.roleId === 1) nav('/sc-admin')
+						else nav('/');
 					}
 				})
 				.catch((text) => toast.error(text))
