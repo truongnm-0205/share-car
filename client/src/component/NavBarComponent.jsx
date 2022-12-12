@@ -12,7 +12,6 @@ export default function NavBarComponent(props) {
 	const nav = useNavigate();
 
 	const logOut = () => {
-<<<<<<< HEAD
 		if(confirm(`Log out from ${user.data.fullName}`)){
       postToServerWithToken('/v1/auth/logout',{},user.data.accessToken)
       .then((result) => {
@@ -22,17 +21,6 @@ export default function NavBarComponent(props) {
         nav('/login');
       })
       .catch((text) => toast.error(text)).finally(()=>{dispatch(setData({}));dispatch(setDataDriver({}))});
-=======
-		if (confirm(`Log out from ${user.data.username}`)) {
-			postToServerWithToken('/v1/auth/logout', {}, user.data.accessToken)
-				.then((result) => {
-					toast.success(result.status);
-					dispatch(setData({}));
-					dispatch(setDataDriver({}));
-					nav('/login');
-				})
-				.catch((text) => toast.error(text));
->>>>>>> main
 		}
 	};
 
