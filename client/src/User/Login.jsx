@@ -17,22 +17,36 @@ export default function Login(props) {
 	const dispatch = useDispatch();
 	const nav = useNavigate();
 
-	const loginSubmit = (e) => {
+	const loginSubmit = async (e) => {
 		if (!userName) setUsernameError('User name is required');
 		else if (!password) setPasswordError('Password is required');
 		else {
 			setLoading(true);
-			postToServer('/v1/auth/login', { username: userName, password })
-				.then((result) => {
-					if (result == 'Wrong username!') toast.error(result.status);
-					else {
-						toast.success(result.status);
-						dispatch(setData(result.data));
-						nav('/');
-					}
-				})
-				.catch((text) => toast.error(text))
-				.finally(() => setLoading(false));
+			const res = await axios.post(
+				'http://localhost:8080/v1/auth/login',
+				{
+					username: userName,
+					password: password,
+				},
+				{
+					withCredentials: true,
+				},
+			);
+			console.log(res.data);
+			// toast.success(res.data);
+			// dispatch(setData(res.data));
+			// nav('/');
+			// postToServer('/v1/auth/login', { username: userName, password })
+			// 	.then((result) => {
+			// 		if (result == 'Wrong username!') toast.error(result.status);
+			// 		else {
+			// toast.success(result.status);
+			// dispatch(setData(result.data));
+			// nav('/');
+			// 		}
+			// 	})
+			// 	.catch((text) => toast.error(text))
+			// 	.finally(() => setLoading(false));
 		}
 	};
 
@@ -44,7 +58,7 @@ export default function Login(props) {
 				backgroundImage: `url("/assets/images/login_background.jpg")`,
 				backgroundSize: '100% 100%',
 			}}>
-				<NavBarComponent/>
+			<NavBarComponent />
 			<div
 				className="d-flex flex-column align-items-center justify-content-center flex-grow-1"
 				style={{ width: '360px' }}>
@@ -60,7 +74,9 @@ export default function Login(props) {
 							setUserName(e.target.value);
 							setUsernameError('');
 						}}
-						onKeyDown={e=>{if(e.key === "Enter") loginSubmit(e)}}
+						onKeyDown={(e) => {
+							if (e.key === 'Enter') loginSubmit(e);
+						}}
 						placeholder="User name"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}
@@ -85,7 +101,9 @@ export default function Login(props) {
 							setPassword(e.target.value);
 							setPasswordError;
 						}}
-						onKeyDown={e=>{if(e.key === "Enter") loginSubmit(e)}}
+						onKeyDown={(e) => {
+							if (e.key === 'Enter') loginSubmit(e);
+						}}
 						placeholder="Password"
 						autocomplete="off"
 						style={{ height: '45px', outline: 'none' }}

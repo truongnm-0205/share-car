@@ -16,4232 +16,4962 @@ module.exports = {
 			'Districts',
 			[
 				{
-					name: 'Quận Ba Đình',
+					name: 'Bình Chánh',
 					cityId: 1,
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Hoàn Kiếm',
+					name: 'Bình Tân',
 					cityId: 1,
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Tây Hồ',
+					name: 'Bình Thạnh',
 					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Long Biên',
+					name: 'Cần Giờ',
 					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Cầu Giấy',
+					name: 'Củ Chi',
 					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Đống Đa',
+					name: 'Gò Vấp',
 					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Hai Bà Trưng',
+					name: 'Hóc Môn',
 					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Hoàng Mai',
+					name: 'Nhà Bè',
 					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Thanh Xuân',
+					name: 'Phú Nhuận',
 					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sóc Sơn',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đông Anh',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Gia Lâm',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Nam Từ Liêm',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Trì',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Bắc Từ Liêm',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hà Giang',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đồng Văn',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mèo Vạc',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Minh',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quản Bạ',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vị Xuyên',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Mê',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoàng Su Phì',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Xín Mần',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Quang',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quang Bình',
-					cityId: 2,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Cao Bằng',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bảo Lâm',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bảo Lạc',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hà Quảng',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trùng Khánh',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hạ Lang',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quảng Hòa',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoà An',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nguyên Bình',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thạch An',
-					cityId: 4,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành Phố Bắc Kạn',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Pác Nặm',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ba Bể',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ngân Sơn',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bạch Thông',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chợ Đồn',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chợ Mới',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Na Rì',
-					cityId: 6,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Tuyên Quang',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lâm Bình',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Na Hang',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chiêm Hóa',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hàm Yên',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Sơn',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sơn Dương',
-					cityId: 8,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Lào Cai',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bát Xát',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường Khương',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Si Ma Cai',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Hà',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bảo Thắng',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bảo Yên',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Sa Pa',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Bàn',
-					cityId: 10,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Điện Biên Phủ',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Mường Lay',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường Nhé',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường Chà',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tủa Chùa',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tuần Giáo',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Điện Biên',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Điện Biên Đông',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường Ảng',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nậm Pồ',
-					cityId: 11,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Lai Châu',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tam Đường',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường Tè',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sìn Hồ',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phong Thổ',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Than Uyên',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Uyên',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nậm Nhùn',
-					cityId: 12,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Sơn La',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quỳnh Nhai',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thuận Châu',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường La',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Yên',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phù Yên',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mộc Châu',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Châu',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mai Sơn',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sông Mã',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sốp Cộp',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vân Hồ',
-					cityId: 14,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Yên Bái',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Nghĩa Lộ',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lục Yên',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Yên',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mù Căng Chải',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trấn Yên',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trạm Tấu',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Chấn',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Bình',
-					cityId: 15,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hòa Bình',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đà Bắc',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lương Sơn',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kim Bôi',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cao Phong',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Lạc',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mai Châu',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lạc Sơn',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Thủy',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lạc Thủy',
-					cityId: 17,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Thái Nguyên',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Sông Công',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Định Hóa',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Lương',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đồng Hỷ',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Võ Nhai',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đại Từ',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Phổ Yên',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Bình',
-					cityId: 19,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Lạng Sơn',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tràng Định',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bình Gia',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Lãng',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cao Lộc',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Quan',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Sơn',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hữu Lũng',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chi Lăng',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lộc Bình',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đình Lập',
-					cityId: 20,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hạ Long',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Móng Cái',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Cẩm Phả',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Uông Bí',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bình Liêu',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tiên Yên',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đầm Hà',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hải Hà',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ba Chẽ',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vân Đồn',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Đông Triều',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Quảng Yên',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cô Tô',
-					cityId: 22,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Bắc Giang',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Thế',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Yên',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lạng Giang',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lục Nam',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lục Ngạn',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sơn Động',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Dũng',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Việt Yên',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hiệp Hòa',
-					cityId: 24,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Việt Trì',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Phú Thọ',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đoan Hùng',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hạ Hoà',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Ba',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phù Ninh',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Lập',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cẩm Khê',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tam Nông',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lâm Thao',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Sơn',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Thuỷ',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Sơn',
-					cityId: 25,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Vĩnh Yên',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Phúc Yên',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lập Thạch',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tam Dương',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tam Đảo',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bình Xuyên',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mê Linh',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Lạc',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vĩnh Tường',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sông Lô',
-					cityId: 26,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Bắc Ninh',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Phong',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quế Võ',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tiên Du',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Từ Sơn',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thuận Thành',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Gia Bình',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lương Tài',
-					cityId: 27,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Hà Đông',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Sơn Tây',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ba Vì',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phúc Thọ',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đan Phượng',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoài Đức',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quốc Oai',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thạch Thất',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chương Mỹ',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Oai',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thường Tín',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Xuyên',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ứng Hòa',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mỹ Đức',
-					cityId: 1,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hải Dương',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Chí Linh',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nam Sách',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Kinh Môn',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kim Thành',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Hà',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cẩm Giàng',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bình Giang',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Gia Lộc',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tứ Kỳ',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ninh Giang',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Miện',
-					cityId: 30,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Hồng Bàng',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Ngô Quyền',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Lê Chân',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Hải An',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Kiến An',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Đồ Sơn',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Dương Kinh',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thuỷ Nguyên',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện An Dương',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện An Lão',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kiến Thuỵ',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tiên Lãng',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vĩnh Bảo',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cát Hải',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bạch Long Vĩ',
-					cityId: 31,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hưng Yên',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Lâm',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Văn Giang',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Mỹ',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Mỹ Hào',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ân Thi',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Khoái Châu',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kim Động',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tiên Lữ',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phù Cừ',
-					cityId: 33,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Thái Bình',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quỳnh Phụ',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hưng Hà',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đông Hưng',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thái Thụy',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tiền Hải',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kiến Xương',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vũ Thư',
-					cityId: 34,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Phủ Lý',
-					cityId: 35,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Duy Tiên',
-					cityId: 35,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kim Bảng',
-					cityId: 35,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Liêm',
-					cityId: 35,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bình Lục',
-					cityId: 35,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lý Nhân',
-					cityId: 35,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Nam Định',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mỹ Lộc',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vụ Bản',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ý Yên',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nghĩa Hưng',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nam Trực',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trực Ninh',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Xuân Trường',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Giao Thủy',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hải Hậu',
-					cityId: 36,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Ninh Bình',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Tam Điệp',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nho Quan',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Gia Viễn',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoa Lư',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Khánh',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kim Sơn',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Mô',
-					cityId: 37,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Thanh Hóa',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Bỉm Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Sầm Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mường Lát',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quan Hóa',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bá Thước',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quan Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lang Chánh',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ngọc Lặc',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cẩm Thủy',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thạch Thành',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hà Trung',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vĩnh Lộc',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Định',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thọ Xuân',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thường Xuân',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Triệu Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thiệu Hóa',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoằng Hóa',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hậu Lộc',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nga Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Như Xuân',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Như Thanh',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nông Cống',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đông Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quảng Xương',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Nghi Sơn',
-					cityId: 38,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Vinh',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Cửa Lò',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Thái Hoà',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quế Phong',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quỳ Châu',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kỳ Sơn',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tương Dương',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nghĩa Đàn',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quỳ Hợp',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quỳnh Lưu',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Con Cuông',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Kỳ',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Anh Sơn',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Diễn Châu',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Yên Thành',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đô Lương',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thanh Chương',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nghi Lộc',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nam Đàn',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hưng Nguyên',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Hoàng Mai',
-					cityId: 40,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hà Tĩnh',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Hồng Lĩnh',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hương Sơn',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đức Thọ',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vũ Quang',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nghi Xuân',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Can Lộc',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hương Khê',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thạch Hà',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cẩm Xuyên',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kỳ Anh',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lộc Hà',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Kỳ Anh',
-					cityId: 42,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành Phố Đồng Hới',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Minh Hóa',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tuyên Hóa',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quảng Trạch',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bố Trạch',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quảng Ninh',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lệ Thủy',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Ba Đồn',
-					cityId: 44,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Đông Hà',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Quảng Trị',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vĩnh Linh',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hướng Hóa',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Gio Linh',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đa Krông',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cam Lộ',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Triệu Phong',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hải Lăng',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cồn Cỏ',
-					cityId: 45,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Huế',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phong Điền',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quảng Điền',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Vang',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Hương Thủy',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Hương Trà',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện A Lưới',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Lộc',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nam Đông',
-					cityId: 46,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Liên Chiểu',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Thanh Khê',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Hải Châu',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Sơn Trà',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Ngũ Hành Sơn',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Cẩm Lệ',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hòa Vang',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoàng Sa',
-					cityId: 48,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Tam Kỳ',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Hội An',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tây Giang',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đông Giang',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đại Lộc',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Điện Bàn',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Duy Xuyên',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Quế Sơn',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nam Giang',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phước Sơn',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hiệp Đức',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thăng Bình',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tiên Phước',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Trà My',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nam Trà My',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Núi Thành',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Ninh',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nông Sơn',
-					cityId: 49,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Quảng Ngãi',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bình Sơn',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trà Bồng',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sơn Tịnh',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tư Nghĩa',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sơn Hà',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sơn Tây',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Minh Long',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nghĩa Hành',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mộ Đức',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Đức Phổ',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ba Tơ',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lý Sơn',
-					cityId: 51,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Quy Nhơn',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện An Lão',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Hoài Nhơn',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hoài Ân',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phù Mỹ',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vĩnh Thạnh',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tây Sơn',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phù Cát',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã An Nhơn',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tuy Phước',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vân Canh',
-					cityId: 52,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Tuy Hoà',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Sông Cầu',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đồng Xuân',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tuy An',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sơn Hòa',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sông Hinh',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tây Hoà',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Hoà',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Đông Hòa',
-					cityId: 54,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Nha Trang',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Cam Ranh',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cam Lâm',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vạn Ninh',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Ninh Hòa',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Khánh Vĩnh',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Diên Khánh',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Khánh Sơn',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trường Sa',
-					cityId: 56,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Phan Rang-Tháp Chàm',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bác Ái',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ninh Sơn',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ninh Hải',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ninh Phước',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thuận Bắc',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thuận Nam',
-					cityId: 58,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Phan Thiết',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã La Gi',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tuy Phong',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Bình',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hàm Thuận Bắc',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hàm Thuận Nam',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tánh Linh',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đức Linh',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hàm Tân',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Quí',
-					cityId: 60,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Kon Tum',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đắk Glei',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ngọc Hồi',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đắk Tô',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kon Plông',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kon Rẫy',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đắk Hà',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Sa Thầy',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tu Mơ Rông',
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: "Huyện Ia H' Drai",
-					cityId: 62,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Pleiku',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã An Khê',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Ayun Pa',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện KBang',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đăk Đoa',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chư Păh',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ia Grai',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Mang Yang',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Kông Chro',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đức Cơ',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chư Prông',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chư Sê',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đăk Pơ',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ia Pa',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông Pa',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Thiện',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chư Pưh',
-					cityId: 64,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Buôn Ma Thuột',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Buôn Hồ',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: "Huyện Ea H'leo",
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ea Súp',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Buôn Đôn',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: "Huyện Cư M'gar",
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông Búk',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông Năng',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Ea Kar',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: "Huyện M'Đrắk",
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông Bông',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông Pắc',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông A Na',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lắk',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cư Kuin',
-					cityId: 66,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Gia Nghĩa',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đăk Glong',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cư Jút',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đắk Mil',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Krông Nô',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đắk Song',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: "Huyện Đắk R'Lấp",
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tuy Đức',
-					cityId: 67,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Đà Lạt',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Bảo Lộc',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đam Rông',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lạc Dương',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lâm Hà',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đơn Dương',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đức Trọng',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Di Linh',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bảo Lâm',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đạ Huoai',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đạ Tẻh',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cát Tiên',
-					cityId: 68,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Phước Long',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Đồng Xoài',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Bình Long',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bù Gia Mập',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Lộc Ninh',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bù Đốp',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Hớn Quản',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đồng Phú',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bù Đăng',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Chơn Thành',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Riềng',
-					cityId: 70,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Tây Ninh',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Biên',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Châu',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Dương Minh Châu',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Châu Thành',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Hòa Thành',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Gò Dầu',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bến Cầu',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Trảng Bàng',
-					cityId: 72,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Thủ Dầu Một',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bàu Bàng',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Dầu Tiếng',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Bến Cát',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Phú Giáo',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Tân Uyên',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Dĩ An',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Thuận An',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Bắc Tân Uyên',
-					cityId: 74,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Biên Hòa',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Long Khánh',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Tân Phú',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Vĩnh Cửu',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Định Quán',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Trảng Bom',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Thống Nhất',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Cẩm Mỹ',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Long Thành',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Xuân Lộc',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Nhơn Trạch',
-					cityId: 75,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Vũng Tàu',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Bà Rịa',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Châu Đức',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Xuyên Mộc',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Long Điền',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Đất Đỏ',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thị xã Phú Mỹ',
-					cityId: 77,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Huyện Côn Đảo',
-					cityId: 77,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 1',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận 12',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Gò Vấp',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Bình Thạnh',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Tân Bình',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Tân Phú',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Phú Nhuận',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Thành phố Thủ Đức',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận 3',
-					cityId: 79,
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 10',
-					cityId: 79,
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 11',
-					cityId: 79,
+					cityId: 1,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quận 12',
+					cityId: 1,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quận 2',
+					cityId: 1,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quận 3',
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 4',
-					cityId: 79,
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 5',
-					cityId: 79,
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 6',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận 8',
-					cityId: 79,
-					createdAt: new Date(),
-					updatedAt: new Date(),
-				},
-				{
-					name: 'Quận Bình Tân',
-					cityId: 79,
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Quận 7',
-					cityId: 79,
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Củ Chi',
-					cityId: 79,
+					name: 'Quận 8',
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Hóc Môn',
-					cityId: 79,
+					name: 'Quận 9',
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Bình Chánh',
-					cityId: 79,
+					name: 'Tân Bình',
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Nhà Bè',
-					cityId: 79,
+					name: 'Tân Phú',
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cần Giờ',
-					cityId: 79,
+					name: 'Thủ Đức',
+					cityId: 1,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Tân An',
-					cityId: 80,
+					name: 'Ba Đình',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Kiến Tường',
-					cityId: 80,
+					name: 'Ba Vì',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Hưng',
-					cityId: 80,
+					name: 'Bắc Từ Liêm',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Vĩnh Hưng',
-					cityId: 80,
+					name: 'Cầu Giấy',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Mộc Hóa',
-					cityId: 80,
+					name: 'Chương Mỹ',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Thạnh',
-					cityId: 80,
+					name: 'Đan Phượng',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thạnh Hóa',
-					cityId: 80,
+					name: 'Đông Anh',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Đức Huệ',
-					cityId: 80,
+					name: 'Đống Đa',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Đức Hòa',
-					cityId: 80,
+					name: 'Gia Lâm',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Bến Lức',
-					cityId: 80,
+					name: 'Hà Đông',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thủ Thừa',
-					cityId: 80,
+					name: 'Hai Bà Trưng',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Trụ',
-					cityId: 80,
+					name: 'Hoài Đức',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cần Đước',
-					cityId: 80,
+					name: 'Hoàn Kiếm',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cần Giuộc',
-					cityId: 80,
+					name: 'Hoàng Mai',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 80,
+					name: 'Long Biên',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Mỹ Tho',
-					cityId: 82,
+					name: 'Mê Linh',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Gò Công',
-					cityId: 82,
+					name: 'Mỹ Đức',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Cai Lậy',
-					cityId: 82,
+					name: 'Nam Từ Liêm',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Phước',
-					cityId: 82,
+					name: 'Phú Xuyên',
+					cityId: 2,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cái Bè',
-					cityId: 82,
+					name: 'Phúc Thọ',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quốc Oai',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sóc Sơn',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Tây',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tây Hồ',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thạch Thất',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Oai',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Trì',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Xuân',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thường Tín',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ứng Hòa',
+					cityId: 2,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Lệ',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hải Châu',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hòa Vang',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoàng Sa',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Liên Chiểu',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ngũ Hành Sơn',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Trà',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Khê',
+					cityId: 3,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bàu Bàng',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bến Cát',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dầu Tiếng',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dĩ An',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Giáo',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Uyên',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thủ Dầu Một',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thuận An',
+					cityId: 4,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Biên Hòa',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Mỹ',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Định Quán',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Long Khánh',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Long Thành',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nhơn Trạch',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Phú',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thống Nhất',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trảng Bom',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Cửu',
+					cityId: 5,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Xuân Lộc',
+					cityId: 5,
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cam Lâm',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cam Ranh',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Diên Khánh',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Khánh Sơn',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Khánh Vĩnh',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nha Trang',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Hòa',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trường Sa',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vạn Ninh',
+					cityId: 6,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Dương',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Lão',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bạch Long Vĩ',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cát Hải',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đồ Sơn',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dương Kinh',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hải An',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hồng Bàng',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kiến An',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kiến Thụy',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lê Chân',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ngô Quyền',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thủy Nguyên',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tiên Lãng',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Bảo',
+					cityId: 7,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bến Lức',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cần Đước',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cần Giuộc',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Thành',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Hòa',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Huệ',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kiến Tường',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mộc Hóa',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân An',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Hưng',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Thạnh',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Trụ',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thạnh Hóa',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thủ Thừa',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Hưng',
+					cityId: 8,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Trà My',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đại Lộc',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Điện Bàn',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đông Giang',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Duy Xuyên',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hiệp Đức',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hội An',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Giang',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Trà My',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nông Sơn',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Núi Thành',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Ninh',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phước Sơn',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quế Sơn',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Kỳ',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tây Giang',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thăng Bình',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tiên Phước',
+					cityId: 9,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bà Rịa',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Đức',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Côn Đảo',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đất Đỏ',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Long Điền',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Thành',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vũng Tàu',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Xuyên Mộc',
+					cityId: 10,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Buôn Đôn',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Buôn Hồ',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Buôn Ma Thuột',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cư Kuin',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: "Cư M'gar",
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: "Ea H'Leo",
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ea Kar',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ea Súp',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Ana',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Bông',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Buk',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Năng',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Pắc',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lăk',
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: "M'Đrăk",
+					cityId: 11,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: ' Thới Lai',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Thủy',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cái Răng',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cờ Đỏ',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Kiều',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ô Môn',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phong Điền',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thốt Nốt',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Thạnh',
+					cityId: 12,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Bình',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đảo Phú Quý',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Linh',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hàm Tân',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hàm Thuận Bắc',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hàm Thuận Nam',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'La Gi',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phan Thiết',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tánh Linh',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuy Phong',
+					cityId: 13,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bảo Lâm',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bảo Lộc',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cát Tiên',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đạ Huoai',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đà Lạt',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đạ Tẻh',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đam Rông',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Di Linh',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đơn Dương',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Trọng',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lạc Dương',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lâm Hà',
+					cityId: 14,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'A Lưới',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Huế',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hương Thủy',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hương Trà',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Đông',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phong Điền',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Lộc',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Vang',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quảng Điền',
+					cityId: 15,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Biên',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Minh',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Thành',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Giang Thành',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Giồng Riềng',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gò Quao',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hà Tiên',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hòn Đất',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kiên Hải',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kiên Lương',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Quốc',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Rạch Giá',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Hiệp',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'U minh Thượng',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Thuận',
+					cityId: 16,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Ninh',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gia Bình',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lương Tài',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quế Võ',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thuận Thành',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tiên Du',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Từ Sơn',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Phong',
+					cityId: 17,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ba Chẽ',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Liêu',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Phả',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cô Tô',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đầm Hà',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đông Triều',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hạ Long',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hải Hà',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoành Bồ',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Móng Cái',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quảng Yên',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tiên Yên',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Uông Bí',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vân Đồn',
+					cityId: 18,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bá Thước',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bỉm Sơn',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Thủy',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đông Sơn',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hà Trung',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hậu Lộc',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoằng Hóa',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lang Chánh',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Lát',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nga Sơn',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ngọc Lặc',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Như Thanh',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Như Xuân',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nông Cống',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quan Hóa',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quan Sơn',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quảng Xương',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sầm Sơn',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thạch Thành',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Hóa',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thiệu Hóa',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thọ Xuân',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thường Xuân',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tĩnh Gia',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Triệu Sơn',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Lộc',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Định',
+					cityId: 19,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Anh Sơn',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Con Cuông',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cửa Lò',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Diễn Châu',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đô Lương',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoàng Mai',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hưng Nguyên',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kỳ Sơn',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Đàn',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nghi Lộc',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nghĩa Đàn',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quế Phong',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quỳ Châu',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quỳ Hợp',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quỳnh Lưu',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Kỳ',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thái Hòa',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Chương',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tương Dương',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vinh',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Thành',
+					cityId: 20,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Giang',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Giàng',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chí Linh',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gia Lộc',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hải Dương',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kim Thành',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kinh Môn',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Sách',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Giang',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Hà',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Miện',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tứ Kỳ',
+					cityId: 21,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Khê',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'AYun Pa',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chư Păh',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chư Pưh',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chư Sê',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'ChưPRông',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đăk Đoa',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đăk Pơ',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Cơ',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ia Grai',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ia Pa',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'KBang',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kông Chro',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Pa',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mang Yang',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Thiện',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Plei Ku',
+					cityId: 22,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Long',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bù Đăng',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bù Đốp',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bù Gia Mập',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chơn Thành',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đồng Phú',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đồng Xoài',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hớn Quản',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lộc Ninh',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Riềng',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phước Long',
+					cityId: 23,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ân Thi',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hưng Yên',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Khoái Châu',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kim Động',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mỹ Hào',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phù Cừ',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tiên Lữ',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Giang',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Lâm',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Mỹ',
+					cityId: 24,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Lão',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'An Nhơn',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoài Ân',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoài Nhơn',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phù Cát',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phù Mỹ',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quy Nhơn',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tây Sơn',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuy Phước',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vân Canh',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Thạnh',
+					cityId: 25,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cái Bè',
+					cityId: 26,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cai Lậy',
+					cityId: 26,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Thành',
+					cityId: 26,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chợ Gạo',
+					cityId: 26,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gò Công',
+					cityId: 26,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gò Công Đông',
+					cityId: 26,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gò Công Tây',
+					cityId: 26,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Huyện Cai Lậy',
-					cityId: 82,
+					cityId: 26,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 82,
+					name: 'Mỹ Tho',
+					cityId: 26,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Chợ Gạo',
-					cityId: 82,
+					name: 'Tân Phú Đông',
+					cityId: 26,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Gò Công Tây',
-					cityId: 82,
+					name: 'Tân Phước',
+					cityId: 26,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Gò Công Đông',
-					cityId: 82,
+					name: 'Đông Hưng',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Phú Đông',
-					cityId: 82,
+					name: 'Hưng Hà',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Bến Tre',
-					cityId: 83,
+					name: 'Kiến Xương',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 83,
+					name: 'Quỳnh Phụ',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Chợ Lách',
-					cityId: 83,
+					name: 'Thái Bình',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Mỏ Cày Nam',
-					cityId: 83,
+					name: 'Thái Thuỵ',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Giồng Trôm',
-					cityId: 83,
+					name: 'Tiền Hải',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Bình Đại',
-					cityId: 83,
+					name: 'Vũ Thư',
+					cityId: 27,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Ba Tri',
-					cityId: 83,
+					name: 'Bắc Giang',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thạnh Phú',
-					cityId: 83,
+					name: 'Hiệp Hòa',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Mỏ Cày Bắc',
-					cityId: 83,
+					name: 'Lạng Giang',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Trà Vinh',
-					cityId: 84,
+					name: 'Lục Nam',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Càng Long',
-					cityId: 84,
+					name: 'Lục Ngạn',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cầu Kè',
-					cityId: 84,
+					name: 'Sơn Động',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tiểu Cần',
-					cityId: 84,
+					name: 'Tân Yên',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 84,
+					name: 'Việt Yên',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cầu Ngang',
-					cityId: 84,
+					name: 'Yên Dũng',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Trà Cú',
-					cityId: 84,
+					name: 'Yên Thế',
+					cityId: 28,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Duyên Hải',
-					cityId: 84,
+					name: 'Cao Phong',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Duyên Hải',
-					cityId: 84,
+					name: 'Đà Bắc',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Vĩnh Long',
-					cityId: 86,
+					name: 'Hòa Bình',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Long Hồ',
-					cityId: 86,
+					name: 'Kim Bôi',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Mang Thít',
-					cityId: 86,
+					name: 'Kỳ Sơn',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện  Vũng Liêm',
-					cityId: 86,
+					name: 'Lạc Sơn',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tam Bình',
-					cityId: 86,
+					name: 'Lạc Thủy',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Bình Minh',
-					cityId: 86,
+					name: 'Lương Sơn',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Trà Ôn',
-					cityId: 86,
+					name: 'Mai Châu',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Bình Tân',
-					cityId: 86,
+					name: 'Tân Lạc',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Cao Lãnh',
-					cityId: 87,
+					name: 'Yên Thủy',
+					cityId: 29,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Sa Đéc',
-					cityId: 87,
+					name: 'An Phú',
+					cityId: 30,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Hồng Ngự',
-					cityId: 87,
+					name: 'Châu Đốc',
+					cityId: 30,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Hồng',
-					cityId: 87,
+					name: 'Châu Phú',
+					cityId: 30,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Hồng Ngự',
-					cityId: 87,
+					name: 'Châu Thành',
+					cityId: 30,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tam Nông',
-					cityId: 87,
+					name: 'Chợ Mới',
+					cityId: 30,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tháp Mười',
-					cityId: 87,
+					name: 'Long Xuyên',
+					cityId: 30,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Tân',
+					cityId: 30,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Châu',
+					cityId: 30,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thoại Sơn',
+					cityId: 30,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tịnh Biên',
+					cityId: 30,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tri Tôn',
+					cityId: 30,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Xuyên',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lập Thạch',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phúc Yên',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sông Lô',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Đảo',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Dương',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Tường',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Yên',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Lạc',
+					cityId: 31,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bến Cầu',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Thành',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dương Minh Châu',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gò Dầu',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hòa Thành',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Biên',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Châu',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tây Ninh',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trảng Bàng',
+					cityId: 32,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đại Từ',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Định Hóa',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đồng Hỷ',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phổ Yên',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Bình',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Lương',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sông Công',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thái Nguyên',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Võ Nhai',
+					cityId: 33,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Hà',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bảo Thắng',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bảo Yên',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bát Xát',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lào Cai',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Khương',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sa Pa',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Bàn',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Xi Ma Cai',
+					cityId: 34,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Giao Thủy',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hải Hậu',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mỹ Lộc',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Định',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nam Trực',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nghĩa Hưng',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trực Ninh',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vụ Bản',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Xuân Trường',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ý Yên',
+					cityId: 35,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ba Tơ',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Sơn',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Phổ',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lý Sơn',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Minh Long',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mộ Đức',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nghĩa Hành',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quảng Ngãi',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Hà',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Tây',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Tịnh',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tây Trà',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trà Bồng',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tư Nghĩa',
+					cityId: 36,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ba Tri',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bến Tre',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Đại',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Thành',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chợ Lách',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Giồng Trôm',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mỏ Cày Bắc',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mỏ Cày Nam',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thạnh Phú',
+					cityId: 37,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cư Jút',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dăk GLong',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dăk Mil',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: "Dăk R'Lấp",
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Dăk Song',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gia Nghĩa',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Krông Nô',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuy Đức',
+					cityId: 38,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cà Mau',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cái Nước',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đầm Dơi',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Năm Căn',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ngọc Hiển',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Tân',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thới Bình',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trần Văn Thời',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'U Minh',
+					cityId: 39,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Minh',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Tân',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Long Hồ',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mang Thít',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Bình',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trà Ôn',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Long',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vũng Liêm',
+					cityId: 40,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Gia Viễn',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoa Lư',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kim Sơn',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nho Quan',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Bình',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Điệp',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Khánh',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Mô',
+					cityId: 41,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Khê',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đoan Hùng',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hạ Hòa',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lâm Thao',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phù Ninh',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Thọ',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Nông',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Sơn',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Ba',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Sơn',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Thủy',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Việt Trì',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Lập',
+					cityId: 42,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bác Ái',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Hải',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Phước',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ninh Sơn',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phan Rang - Tháp Chàm',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thuận Bắc',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thuận Nam',
+					cityId: 43,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đông Hòa',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đồng Xuân',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phú Hòa',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Hòa',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sông Cầu',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sông Hinh',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tây Hòa',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuy An',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuy Hòa',
+					cityId: 44,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Lục',
+					cityId: 45,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Duy Tiên',
+					cityId: 45,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kim Bảng',
+					cityId: 45,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lý Nhân',
+					cityId: 45,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phủ Lý',
+					cityId: 45,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thanh Liêm',
+					cityId: 45,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cẩm Xuyên',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Can Lộc',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đức Thọ',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hà Tĩnh',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hồng Lĩnh',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hương Khê',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hương Sơn',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Kỳ Anh',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lộc Hà',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nghi Xuân',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thạch Hà',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vũ Quang',
+					cityId: 46,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cao Lãnh',
+					cityId: 47,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Châu Thành',
+					cityId: 47,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hồng Ngự',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
 					name: 'Huyện Cao Lãnh',
-					cityId: 87,
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thanh Bình',
-					cityId: 87,
+					name: 'Huyện Hồng Ngự',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Lấp Vò',
-					cityId: 87,
+					name: 'Lai Vung',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Lai Vung',
-					cityId: 87,
+					name: 'Lấp Vò',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 87,
+					name: 'Sa Đéc',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Long Xuyên',
-					cityId: 89,
+					name: 'Tam Nông',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Châu Đốc',
-					cityId: 89,
+					name: 'Tân Hồng',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện An Phú',
-					cityId: 89,
+					name: 'Thanh Bình',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Tân Châu',
-					cityId: 89,
+					name: 'Tháp Mười',
+					cityId: 47,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Phú Tân',
-					cityId: 89,
+					name: 'Châu Thành',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Phú',
-					cityId: 89,
+					name: 'Cù Lao Dung',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tịnh Biên',
-					cityId: 89,
+					name: 'Kế Sách',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tri Tôn',
-					cityId: 89,
+					name: 'Long Phú',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 89,
+					name: 'Mỹ Tú',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Chợ Mới',
-					cityId: 89,
+					name: 'Mỹ Xuyên',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thoại Sơn',
-					cityId: 89,
+					name: 'Ngã Năm',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Rạch Giá',
-					cityId: 91,
+					name: 'Sóc Trăng',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Hà Tiên',
-					cityId: 91,
+					name: 'Thạnh Trị',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Kiên Lương',
-					cityId: 91,
+					name: 'Trần Đề',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Hòn Đất',
-					cityId: 91,
+					name: 'Vĩnh Châu',
+					cityId: 48,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Tân Hiệp',
-					cityId: 91,
+					name: 'Đăk Glei',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 91,
+					name: 'Đăk Hà',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Giồng Riềng',
-					cityId: 91,
+					name: 'Đăk Tô',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Gò Quao',
-					cityId: 91,
+					name: "Ia H'Drai",
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện An Biên',
-					cityId: 91,
+					name: 'Kon Plông',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện An Minh',
-					cityId: 91,
+					name: 'Kon Rẫy',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Vĩnh Thuận',
-					cityId: 91,
+					name: 'KonTum',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Phú Quốc',
-					cityId: 91,
+					name: 'Ngọc Hồi',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Kiên Hải',
-					cityId: 91,
+					name: 'Sa Thầy',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện U Minh Thượng',
-					cityId: 91,
+					name: 'Tu Mơ Rông',
+					cityId: 49,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Giang Thành',
-					cityId: 91,
+					name: 'Ba Đồn',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Ninh Kiều',
-					cityId: 92,
+					name: 'Bố Trạch',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Ô Môn',
-					cityId: 92,
+					name: 'Đồng Hới',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Bình Thuỷ',
-					cityId: 92,
+					name: 'Lệ Thủy',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Cái Răng',
-					cityId: 92,
+					name: 'Minh Hóa',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Quận Thốt Nốt',
-					cityId: 92,
+					name: 'Quảng Ninh',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Vĩnh Thạnh',
-					cityId: 92,
+					name: 'Quảng Trạch',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cờ Đỏ',
-					cityId: 92,
+					name: 'Tuyên Hóa',
+					cityId: 50,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Phong Điền',
-					cityId: 92,
+					name: 'Cam Lộ',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thới Lai',
-					cityId: 92,
+					name: 'Đa Krông',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Vị Thanh',
-					cityId: 93,
+					name: 'Đảo Cồn cỏ',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Ngã Bảy',
-					cityId: 93,
+					name: 'Đông Hà',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành A',
-					cityId: 93,
+					name: 'Gio Linh',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 93,
+					name: 'Hải Lăng',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Phụng Hiệp',
-					cityId: 93,
+					name: 'Hướng Hóa',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Vị Thuỷ',
-					cityId: 93,
+					name: 'Quảng Trị',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Long Mỹ',
-					cityId: 93,
+					name: 'Triệu Phong',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Long Mỹ',
-					cityId: 93,
+					name: 'Vĩnh Linh',
+					cityId: 51,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Sóc Trăng',
-					cityId: 94,
+					name: 'Càng Long',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Châu Thành',
-					cityId: 94,
+					name: 'Cầu Kè',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Kế Sách',
-					cityId: 94,
+					name: 'Cầu Ngang',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Mỹ Tú',
-					cityId: 94,
+					name: 'Châu Thành',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cù Lao Dung',
-					cityId: 94,
+					name: 'Duyên Hải',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Long Phú',
-					cityId: 94,
+					name: 'Tiểu Cần',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Mỹ Xuyên',
-					cityId: 94,
+					name: 'Trà Cú',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Ngã Năm',
-					cityId: 94,
+					name: 'Trà Vinh',
+					cityId: 52,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thạnh Trị',
-					cityId: 94,
+					name: 'Châu Thành',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Vĩnh Châu',
-					cityId: 94,
+					name: 'Châu Thành A',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Trần Đề',
-					cityId: 94,
+					name: 'Long Mỹ',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Bạc Liêu',
-					cityId: 95,
+					name: 'Ngã Bảy',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Hồng Dân',
-					cityId: 95,
+					name: 'Phụng Hiệp',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Phước Long',
-					cityId: 95,
+					name: 'Vị Thanh',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Vĩnh Lợi',
-					cityId: 95,
+					name: 'Vị Thủy',
+					cityId: 53,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thị xã Giá Rai',
-					cityId: 95,
+					name: 'Bắc Yên',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Đông Hải',
-					cityId: 95,
+					name: 'Mai Sơn',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Hoà Bình',
-					cityId: 95,
+					name: 'Mộc Châu',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Thành phố Cà Mau',
-					cityId: 96,
+					name: 'Mường La',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện U Minh',
-					cityId: 96,
+					name: 'Phù Yên',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Thới Bình',
-					cityId: 96,
+					name: 'Quỳnh Nhai',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Trần Văn Thời',
-					cityId: 96,
+					name: 'Sơn La',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Cái Nước',
-					cityId: 96,
+					name: 'Sông Mã',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Đầm Dơi',
-					cityId: 96,
+					name: 'Sốp Cộp',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Năm Căn',
-					cityId: 96,
+					name: 'Thuận Châu',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Phú Tân',
-					cityId: 96,
+					name: 'Vân Hồ',
+					cityId: 54,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: 'Huyện Ngọc Hiển',
-					cityId: 96,
+					name: 'Yên Châu',
+					cityId: 54,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bạc Liêu',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đông Hải',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Giá Rai',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hòa Bình',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hồng Dân',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phước Long',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vĩnh Lợi',
+					cityId: 55,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lục Yên',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mù Cang Chải',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nghĩa Lộ',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trạm Tấu',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trấn Yên',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Chấn',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Yên',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Bái',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Bình',
+					cityId: 56,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chiêm Hóa',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hàm Yên',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lâm Bình',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Na Hang',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sơn Dương',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuyên Quang',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Sơn',
+					cityId: 57,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Điện Biên',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Điện Biên Đông',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Điện Biên Phủ',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Ảng',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Chà',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Lay',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Nhé',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nậm Pồ',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tủa Chùa',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tuần Giáo',
+					cityId: 58,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lai Châu',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mường Tè',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nậm Nhùn',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phong Thổ',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Sìn Hồ',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tam Đường',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tân Uyên',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Than Uyên',
+					cityId: 59,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Sơn',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bình Gia',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cao Lộc',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chi Lăng',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đình Lập',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hữu Lũng',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lạng Sơn',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Lộc Bình',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Tràng Định',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Lãng',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Văn Quan',
+					cityId: 60,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Mê',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Quang',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Đồng Văn',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hà Giang',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hoàng Su Phì',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Mèo Vạc',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quản Bạ',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quang Bình',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Vị Xuyên',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Xín Mần',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Yên Minh',
+					cityId: 61,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ba Bể',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bắc Kạn',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bạch Thông',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chợ Đồn',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Chợ Mới',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Na Rì',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Ngân Sơn',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Pác Nặm',
+					cityId: 62,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bảo Lạc',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Bảo Lâm',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Cao Bằng',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hạ Lang',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hà Quảng',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Hòa An',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Nguyên Bình',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Phục Hòa',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Quảng Uyên',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thạch An',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Thông Nông',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trà Lĩnh',
+					cityId: 63,
+
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				},
+				{
+					name: 'Trùng Khánh',
+					cityId: 63,
+
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
@@ -4255,7 +4985,8 @@ module.exports = {
 		 * Add commands to revert seed here.
 		 *
 		 * Example:
-		 * await queryInterface.bulkDelete('People', null, {});
+		 *
 		 */
+		await queryInterface.bulkDelete('Districts', null, {});
 	},
 };
