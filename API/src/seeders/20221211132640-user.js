@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
 	async up(queryInterface, Sequelize) {
-    // password 123456
+		// password 123456
 		await queryInterface.bulkInsert(
 			'Users',
 			[
@@ -15,6 +15,7 @@ module.exports = {
 					img: null,
 					age: '2000-05-19',
 					phoneNumber: '0988791065',
+					address: 'Hà nội',
 					cardId: '123456789',
 					bankId: '001200007618',
 					roleId: 1,
@@ -29,6 +30,7 @@ module.exports = {
 					img: null,
 					age: '2000-05-19',
 					phoneNumber: '0988791065',
+					address: 'Hà nội',
 					cardId: '123456789',
 					bankId: '001200007618',
 					roleId: 2,
@@ -43,6 +45,7 @@ module.exports = {
 					img: null,
 					age: '2000-05-19',
 					phoneNumber: '0988791065',
+					address: 'Hà nội',
 					cardId: '123456789',
 					bankId: '001200007618',
 					roleId: 3,
@@ -61,5 +64,6 @@ module.exports = {
 		 * Example:
 		 * await queryInterface.bulkDelete('People', null, {});
 		 */
+		await queryInterface.bulkDelete('Users', null, {});
 	},
 };
