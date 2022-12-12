@@ -10,6 +10,4 @@ router.get('/:id', middlewareController.verifyToken, userController.profileUser)
 // Update profile
 router.put('/update_profile', middlewareController.verifyToken, userController.updateUser);
 
-// /v1/user/:id (Get)
-// /v1/user/:id (PUT)
 export default router;
