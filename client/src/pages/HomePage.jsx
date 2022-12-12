@@ -21,7 +21,7 @@ export default function HomePage() {
 			<div className="d-flex flex-row justify-content-start align-items-center h-100 w-100">
 				<div
 					style={{
-						backgroundColor:"white",
+						backgroundColor: 'white',
 						height: '100%',
 						backgroundImage: `url("/assets/images/taxi-car.png")`,
 						backgroundSize: '100% 100%',

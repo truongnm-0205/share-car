@@ -12,41 +12,46 @@ export default function NavBarComponent(props) {
 	const nav = useNavigate();
 
 	const logOut = () => {
-		if(confirm(`Log out from ${user.data.username}`)){
-      postToServerWithToken('/v1/auth/logout',{},user.data.accessToken)
-      .then((result) => {
-        toast.success(result.status);
-        dispatch(setData({}));
-		dispatch(setDataDriver({}));
-        nav('/login');
-      })
-      .catch((text) => toast.error(text));
+		if (confirm(`Log out from ${user.data.username}`)) {
+			postToServerWithToken('/v1/auth/logout', {}, user.data.accessToken)
+				.then((result) => {
+					toast.success(result.status);
+					dispatch(setData({}));
+					dispatch(setDataDriver({}));
+					nav('/login');
+				})
+				.catch((text) => toast.error(text));
 		}
 	};
 
 	return (
-		<nav
-			className="navbar navbar-expand-lg w-100 sc-background-color py-3">
+		<nav className="navbar navbar-expand-lg w-100 sc-background-color py-3">
 			<div className="container-fluid">
 				<div className="container d-flex justify-content-between align-items-center">
-					<div className='d-flex flex-row justify-content-end align-items-center'>
-						<a className='d-flex flex-row align-items-center' href='/' style={{textDecoration:"none"}}>
+					<div className="d-flex flex-row justify-content-end align-items-center">
+						<a className="d-flex flex-row align-items-center" href="/" style={{ textDecoration: 'none' }}>
 							<div
-							className="rounded mb-1"
-							style={{
-								height: '30px',
-								width: '30px',
-								backgroundImage: `url("/assets/icon/taxi.png")`,
-								backgroundSize: '100% 100%',
-							}}></div>
-							<h2 className="p-0 mb-0 ms-2" style={{fontWeight:"600",color:"white"}}>Share Car</h2>
+								className="rounded mb-1"
+								style={{
+									height: '30px',
+									width: '30px',
+									backgroundImage: `url("/assets/icon/taxi.png")`,
+									backgroundSize: '100% 100%',
+								}}></div>
+							<h2 className="p-0 mb-0 ms-2" style={{ fontWeight: '600', color: 'white' }}>
+								Share Car
+							</h2>
 						</a>
-						<a className='d-flex flex-row align-items-center ms-4' href='/list-car' style={{textDecoration:"none",borderLeft:"double",borderColor:"white"}}>
-							<h3 className="p-0 mb-0 ms-4" style={{fontWeight:"600",color:"white"}}>List Car</h3>
+						<a
+							className="d-flex flex-row align-items-center ms-4"
+							href="/list-car"
+							style={{ textDecoration: 'none', borderLeft: 'double', borderColor: 'white' }}>
+							<h3 className="p-0 mb-0 ms-4" style={{ fontWeight: '600', color: 'white' }}>
+								List Car
+							</h3>
 						</a>
+					</div>
 
-          </div>
-					
 					<div className="dropdown">
 						<button
 							className="btn btn-outline-light dropdown-toggle d-flex flex-row align-items-center"
@@ -63,10 +68,10 @@ export default function NavBarComponent(props) {
 								}}></div>
 							<span className="me-1 fw-bold">Welcome {user.data.username}</span>
 						</button>
-						{
-							user.data.accessToken && <ul className="dropdown-menu">
+						{user.data.accessToken && (
+							<ul className="dropdown-menu">
 								<li>
-									<a className="dropdown-item" href='/profile' style={{ cursor: 'pointer' }}>
+									<a className="dropdown-item" href="/profile" style={{ cursor: 'pointer' }}>
 										Profile
 									</a>
 								</li>
@@ -76,7 +81,7 @@ export default function NavBarComponent(props) {
 									</a>
 								</li>
 							</ul>
-						}
+						)}
 					</div>
 				</div>
 			</div>
