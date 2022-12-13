@@ -11,14 +11,20 @@ module.exports = (sequelize, DataTypes) => {
 			Trip.belongsTo(models.Car, {
 				foreignKey: 'carId',
 			});
-			Trip.belongsTo(models.User,{
-				foreignKey:"driverId"
-			})
+			Trip.belongsTo(models.User, {
+				foreignKey: 'driverId',
+			});
 		}
 	}
 	Trip.init(
 		{
-			driverId: DataTypes.INTEGER,
+			driverId: {
+				type: DataTypes.INTEGER,
+				references: {
+					model: 'User',
+					key: 'id',
+				},
+			},
 			cost: DataTypes.DOUBLE,
 			startAt: DataTypes.DATE,
 			startPosition: DataTypes.STRING,

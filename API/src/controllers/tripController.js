@@ -1,5 +1,5 @@
 import db from '../models';
-import tripServices from '../services/tripService';
+import tripServices from '../services/tripServices';
 
 const tripController = {
 	createNewTrip: async (req, res) => {
@@ -25,10 +25,10 @@ const tripController = {
 	},
 	getAllTrip: async (req, res) => {
 		try {
-            console.log("abc");
+			console.log('abc');
 			const trips = await db.Trip.findAll({
-				attributes: ['cost', 'startAt', 'startPosition', 'endPosition'],
-				include: { model: db.User},
+				// attributes: ['id', 'cost', 'startAt', 'startPosition', 'endPosition', 'driverId'],
+				include: { model: 'Car'},
 			});
 			console.log(trips);
 			res.status(200).json({
