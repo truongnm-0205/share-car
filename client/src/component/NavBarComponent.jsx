@@ -44,9 +44,7 @@ export default function NavBarComponent(props) {
 						<a className='d-flex flex-row align-items-center ms-4' href='/list-car' style={{textDecoration:"none",borderLeft:"double",borderColor:"white"}}>
 							<h3 className="p-0 mb-0 ms-4" style={{fontWeight:"600",color:"white"}}>List Car</h3>
 						</a>
-
           </div>
-					
 					<div className="dropdown">
 						<button
 							className="btn btn-outline-light dropdown-toggle d-flex flex-row align-items-center"
