@@ -49,7 +49,9 @@ export default function HomePageAdmin() {
 			<NavBarComponentAdmin />
 			<div className="d-flex flex-column justify-content-start align-items-center h-100 w-100 container">
         <h2 className='text-uppercase fw-bold my-4' style={{color:"#813535"}}>List car status</h2>
-        <table className='table table-bordered table-hover' style={{border:"double",padding:"5px",borderColor:"#813535"}}>
+        {
+          listCar.length && 
+          <table className='table table-bordered table-hover' style={{border:"double",padding:"5px",borderColor:"#813535"}}>
           <thead className='text-center' style={{backgroundColor:"#813535",color:"white"}}>
             <tr>
               <th className='text-capitalize' scope="col">id car</th>
@@ -117,6 +119,7 @@ export default function HomePageAdmin() {
             }
           </tbody>
         </table>
+        }
 			</div>
 		</div>
 	);

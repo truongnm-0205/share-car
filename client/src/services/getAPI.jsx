@@ -5,7 +5,7 @@ export function postToServer(url, bodyObject) {
 		fetch(baseURL + url, {
 			method: 'post',
 			headers: { 'Content-Type': 'application/json' },
-			credentials: 'include',
+			credentials: 'same-origin',
 			body: JSON.stringify(bodyObject),
 		})
 			.then((response) => {
