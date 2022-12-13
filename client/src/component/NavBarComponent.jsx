@@ -69,7 +69,7 @@ export default function NavBarComponent(props) {
 							<span className="me-1 fw-bold">Welcome {user.data.fullName}</span>
 						</button>
 						{user.data.accessToken && (
-							<ul className="dropdown-menu">
+							<ul className="dropdown-menu w-100">
 								<li>
 									<a className="dropdown-item" href="/profile" style={{ cursor: 'pointer' }}>
 										Profile
