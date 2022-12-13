@@ -19,7 +19,7 @@ export default function Profile(props){
 
   return <div className="container-fluid p-0">
     <NavBarComponent />
-    <div className="container my-4">
+    <div className="container py-4">
       <div className="d-flex flex-column"
         style={{border:"double",borderColor:"#043d5d",borderRadius:"5px"}}>
         <h3 className="text-uppercase sc-color fw-bold text-center py-3"
