@@ -22,14 +22,16 @@ export default function HomePageAdmin() {
     .catch((text) => toast.error(text)).finally(() => setLoading(false));
   }
 
-  const onAccept = (id,status) => {
-    setLoading(true);
-    callToServerWithTokenAndUserObject("put",`/v1/admin-car/${id}`,{},{status:status},user.accessToken)
-    .then((result) => {
-      toast.success(result.message);
-      getListCar();
-    })
-    .catch((text) => toast.error(text)).finally(() => setLoading(false));
+  const onAccept = (id,status,message) => {
+    if(confirm(message)){
+      setLoading(true);
+      callToServerWithTokenAndUserObject("put",`/v1/admin-car/${id}`,{},{status:status},user.accessToken)
+      .then((result) => {
+        toast.success(result.message);
+        getListCar();
+      })
+      .catch((text) => toast.error(text)).finally(() => setLoading(false));
+    }
   }
 
 	useEffect(()=>{
@@ -76,7 +78,7 @@ export default function HomePageAdmin() {
                         <div className='d-flex flex-row justify-content-center w-100'>
                           {loading ? <div className="spinner-grow"></div> :
                             <button
-                              onClick={e=>onAccept(value.id,5)}
+                              onClick={e=>onAccept(value.id,5,"Are you sure you want to accept this request")}
                               className={`btn border-0 me-2 btn-success rounded-pill text-uppercase fw-bold`}
                               style={{ color: 'white', width: '150px'}}>
                               accept
@@ -84,7 +86,7 @@ export default function HomePageAdmin() {
                           }
                           {loading ? <div className="spinner-grow"></div> :
                             <button
-                              onClick={e=>onAccept(value.id,6)}
+                              onClick={e=>onAccept(value.id,6,"Are you sure you want to reject this request")}
                               className={`btn border-0 btn-danger rounded-pill text-uppercase fw-bold`}
                               style={{ color: 'white', width: '150px'}}>
                               Rejected
@@ -97,7 +99,7 @@ export default function HomePageAdmin() {
                       value.status == 5 && <th className='text-center' scope="row" style={{width:"200px"}}>
                         {loading ? <div className="spinner-grow"></div> :
                           <button
-                            onClick={e=>onAccept(value.id,6)}
+                            onClick={e=>onAccept(value.id,6,"Are you sure you want to reject this request")}
                             className={`btn border-0 btn-danger rounded-pill text-uppercase fw-bold`}
                             style={{ color: 'white', width: '150px'}}>
                             Rejected
