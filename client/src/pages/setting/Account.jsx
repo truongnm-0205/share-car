@@ -8,29 +8,37 @@ import { callToServerWithTokenAndUserObject } from '../../services/getAPI';
 
 export default function Account(props){
   const user = useSelector(state=>state.user.data);
-  const [fullName,setFullName] = useState(user.username);
+  const [fullName,setFullName] = useState(user.fullName);
   const [address,setAddress] = useState(user.address);
   const [age,setAge] = useState(user.age);
   const [phoneNumber,setPhoneNumber]= useState(user.phoneNumber);
+  const [email,setEmail] = useState(user.email);
+  const [cardId,setCarId] = useState(user.cardId);
+  const [bankId,setBankId] = useState(user.bankId);
+  const [img,setImg] = useState(user.img);
   const [loading,setLoading] = useState(false);
   const dispatch = useDispatch();
 
   const updateProfile = (e) =>{
     setLoading(true);
-    callToServerWithTokenAndUserObject("post",'/v1/user/update_profile',
+    callToServerWithTokenAndUserObject("put",'/v1/user/update_profile',
     {
       id: user.id
     },
     {
-      username:fullName,
+      fullName:fullName,
       address:address,
       age:age,
-      phoneNumber:phoneNumber
+      phoneNumber:phoneNumber,
+      cardId:cardId,
+      bankId:bankId,
+      img:img,
+      email:email,
     },user.accessToken)
     .then((result) => {
-      toast.success(result.status);
-      let userData = result.data;
-      Object.assign(userData,{accessToken:user.accessToken});
+      toast.success(result.message);
+      let userData = {};
+      Object.assign(userData,{fullName:fullName},{address:address},{age:age},{phoneNumber:phoneNumber},{cardId:cardId},{img:img},{email:email},{bankId:bankId},{accessToken:user.accessToken});
       dispatch(setData(userData));
     })
     .catch((text) => toast.error(text)).finally(() => setLoading(false));
@@ -54,6 +62,18 @@ export default function Account(props){
       <div className='d-flex flex-row justify-content-start align-items-center my-4' style={{borderBottom:"double",paddingBottom:"5px"}}>
         <span className='sc-heading text-uppercase' style={{width:"300px"}}>phone Number:</span>
         <TextFieldEditable fontSize={props.FONT_SIZE} type="number" width="100%" disabled={false} value={phoneNumber} save={value=>setPhoneNumber(value)} required={true}/>
+      </div>
+      <div className='d-flex flex-row justify-content-start align-items-center my-4' style={{borderBottom:"double",paddingBottom:"5px"}}>
+        <span className='sc-heading text-uppercase' style={{width:"300px"}}>email:</span>
+        <TextFieldEditable fontSize={props.FONT_SIZE} width="100%" disabled={false} value={email} save={value=>setEmail(value)} required={true}/>
+      </div>
+      <div className='d-flex flex-row justify-content-start align-items-center my-4' style={{borderBottom:"double",paddingBottom:"5px"}}>
+        <span className='sc-heading text-uppercase' style={{width:"300px"}}>bank id:</span>
+        <TextFieldEditable fontSize={props.FONT_SIZE} type="number" width="100%" disabled={false} value={bankId} save={value=>setBankId(value)} required={true}/>
+      </div>
+      <div className='d-flex flex-row justify-content-start align-items-center my-4' style={{borderBottom:"double",paddingBottom:"5px"}}>
+        <span className='sc-heading text-uppercase' style={{width:"300px"}}>card id:</span>
+        <TextFieldEditable fontSize={props.FONT_SIZE} type="number" width="100%" disabled={false} value={cardId} save={value=>setCarId(value)} required={true}/>
       </div>
       <div className='my-3'>
         {loading ? <div className="spinner-grow"></div> : <ButtonComponent label="update information account" onClick={updateProfile} />}

@@ -56,18 +56,18 @@ export function callToServerWithTokenAndUserObject(method,url, userObject ,bodyO
 			credentials: 'same-origin',
 			user: JSON.stringify(userObject),
 			body: JSON.stringify(bodyObject),
-		})
-			.then((response) => {
+		}).then((response) => {
 				if (response.status === 419) {
 					alert('Your session is already expired because you are idle for too long. Page will automatic refesh.');
 					window.location.reload();
 				}
+				// if(response.status === 400) response.json().then((json) => resolve(json))
 				if (response.ok) {
 					const contentType = response.headers.get('content-type');
 					if (contentType && contentType.indexOf('application/json') !== -1)
 						response.json().then((json) => resolve(json));
-					else response.text().then((text) => resolve(text));
-				} else response.json().then((text) => reject(text));
+					else response.json().then((json) => resolve(json));
+				} else response.json().then((json) => reject(json));
 			})
 			.catch((err) => reject(err)),
 	);

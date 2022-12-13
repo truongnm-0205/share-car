@@ -21,11 +21,11 @@ export default function HomePage() {
 			<div className="d-flex flex-row justify-content-start align-items-center h-100 w-100">
 				<div
 					style={{
-						backgroundColor: 'white',
+						backgroundColor:"white",
 						height: '100%',
 						backgroundImage: `url("/assets/images/taxi-car.png")`,
 						backgroundSize: '100% 100%',
-						width: '750px',
+						width: '845px',
 					}}></div>
 				<div className="d-flex flex-column align-items-center justify-content-center">
 					<div style={{ textAlign: 'justify' }}></div>
