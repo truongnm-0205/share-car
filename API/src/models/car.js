@@ -15,6 +15,9 @@ module.exports = (sequelize, DataTypes) => {
 			Car.belongsTo(models.AllCode, {
 				foreignKey: 'status',
 			});
+			Car.hasMany(models.Trip, {
+				foreignKey: 'carId',
+			});
 		}
 	}
 	Car.init(

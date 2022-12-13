@@ -105,14 +105,16 @@ const carServices = {
 	updateStatusRegisterCar: async (carId, data) => {
 		return new Promise(async (resolve, reject) => {
 			try {
-				const isUpdate = await db.Car.update({ status: data.status }, { where: { id: carId } });
-				if (isUpdate) {
-					const data = await db.Car.findOne({
-						where: {
-							id: carId,
-						},
+				const car = await db.Car.findOne({ where: { id: carId } });
+				if (car == null) {
+					resolve({
+						status: false,
+						message: 'CarId not found.',
 					});
-					await db.User.update({ roleId: 3 }, { where: { id: data.userId } });
+				}
+				const isUpdate = await db.Car.update({ status: data.status, updatedAt: new Date() }, { where: { id: carId } });
+				if (isUpdate) {
+					await db.User.update({ roleId: 3 }, { where: { id: car.userId } });
 					resolve({
 						status: true,
 						message: 'Update status request successfully!',

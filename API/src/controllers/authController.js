@@ -98,7 +98,7 @@ const authController = {
 			await db.RefreshToken.create({
 				token: newRefreshToken,
 			});
-			
+
 			res.cookie('refreshToken', newRefreshToken, {
 				httpOnly: true,
 				secure: false,
