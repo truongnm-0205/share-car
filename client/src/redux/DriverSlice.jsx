@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 export const DriverSlice = createSlice({
 	name: 'driver',
 	initialState: {
-		data: {},
+		data: [],
 	},
 	reducers: {
 		setDataDriver: (state, action) => {

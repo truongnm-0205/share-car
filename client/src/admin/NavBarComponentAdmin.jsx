@@ -12,7 +12,7 @@ export default function NavBarComponentAdmin(props) {
 	const nav = useNavigate();
 
 	const logOut = () => {
-		if(confirm(`Log out from ${user.data.fullName}`)){
+	if(confirm(`Log out from ${user.data.fullName}`)){
       postToServerWithToken('/v1/auth/logout',{},user.data.accessToken)
       .then((result) => {
         toast.success(result.status);
@@ -61,7 +61,7 @@ export default function NavBarComponentAdmin(props) {
 							<span className="me-1 fw-bold">Welcome {user.data.fullName}</span>
 						</button>
 						{
-							user.data.accessToken && <ul className="dropdown-menu">
+							user.data.accessToken && <ul className="dropdown-menu w-100">
 								<li>
 									<a className="dropdown-item" onClick={logOut} style={{ cursor: 'pointer' }}>
 										Log out
