@@ -24,26 +24,6 @@ module.exports = {
 				type: Sequelize.DATE,
 			},
 		});
-		await queryInterface.addConstraint('Trips', {
-			fields: ['startPosition'],
-			type: 'foreign key',
-			name: 'startPosition_id',
-			references: {
-				//Required field
-				table: 'Districts',
-				field: 'id',
-			},
-		});
-		await queryInterface.addConstraint('Trips', {
-			fields: ['endPosition'],
-			type: 'foreign key',
-			name: 'endPosition_id',
-			references: {
-				//Required field
-				table: 'Districts',
-				field: 'id',
-			},
-		});
 		await queryInterface.addConstraint('Districts', {
 			fields: ['cityId'],
 			type: 'foreign key',
@@ -57,8 +37,6 @@ module.exports = {
 	},
 	async down(queryInterface, Sequelize) {
 		await queryInterface.removeConstraint('Districts', 'city_id_have_many_disctrict');
-		await queryInterface.removeConstraint('Trips', 'startPosition_id');
-		await queryInterface.removeConstraint('Trips', 'endPosition_id');
 		await queryInterface.dropTable('Districts');
 	},
 };

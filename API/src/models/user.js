@@ -21,6 +21,9 @@ module.exports = (sequelize, DataTypes) => {
 			User.hasMany(models.UserRate, {
 				foreignKey: 'user_driverId',
 			});
+			User.hasMany(models.Trip, {
+				foreignKey: 'driverId',
+			});
 		}
 	}
 	User.init(

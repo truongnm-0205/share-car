@@ -19,9 +19,12 @@ module.exports = {
 				type: Sequelize.DATE,
 			},
 			startPosition: {
-				type: Sequelize.INTEGER,
+				type: Sequelize.STRING,
 			},
 			endPosition: {
+				type: Sequelize.STRING,
+			},
+			carId: {
 				type: Sequelize.INTEGER,
 			},
 			createdAt: {
@@ -43,11 +46,19 @@ module.exports = {
 				field: 'id',
 			},
 		});
+		await queryInterface.addConstraint('Trips', {
+			fields: ['carId'],
+			type: 'foreign key',
+			name: 'driver_have_car',
+			references: {
+				//Required field
+				table: 'Cars',
+				field: 'id',
+			},
+		});
 	},
 	async down(queryInterface, Sequelize) {
 		await queryInterface.removeConstraint('Trips', 'driver_have_many_trip');
-		// await queryInterface.removeConstraint('Trips', 'startPosition_id');
-		// await queryInterface.removeConstraint('Trips', 'endPosition_id');
 		await queryInterface.dropTable('Trips');
 	},
 };

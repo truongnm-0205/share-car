@@ -8,34 +8,32 @@ import userRoute from './routes/user';
 import userCarRoute from './routes/userCar';
 import adminCarRoute from './routes/adminCar';
 import allCodeRoute from './routes/allCode';
-
+import cityRoute from './routes/city';
+import tripRoute from './routes/trip';
 dotenv.config();
 
 const app = express();
 
-// var allowCrossDomain = function (req, res, next) {
-// 	res.header('Access-Control-Allow-Origin', '*');
-// 	res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-// 	res.header('Access-Control-Allow-Headers', 'Content-Type');
-// 	next();
-// };
-// const corsOptions = {
-// 	origin: 'http://localhost:8080/',
-// 	optionsSuccessStatus: 200,
-// 	credentials: true,
-// };
+// app.use(cors());
+// Add headers before the routes are defined
+// app.use(function (req, res, next) {
+// 	// Website you wish to allow to connect
+// 	res.setHeader('Access-Control-Allow-Origin', process.env.CLIENT_URL);
 
-app.use(cors());
-// app.use((req, res, next) => {
-// 	res.header('Access-Control-Allow-Origin', '*');
-// 	res.header(
-// 		'Access-Control-Allow-Headers',
-// 		'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method',
-// 	);
-// 	res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
-// 	res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
+// 	// Request methods you wish to allow
+// 	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+
+// 	// Request headers you wish to allow
+// 	res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+
+// 	// Set to true if you need the website to include cookies in the requests sent
+// 	// to the API (e.g. in case you use sessions)
+// 	res.setHeader('Access-Control-Allow-Credentials', true);
+
+// 	// Pass to next layer of middleware
 // 	next();
 // });
+
 app.use(cookieParser());
 app.use(express.json());
 
@@ -44,6 +42,8 @@ app.use('/v1/user', userRoute);
 app.use('/v1/user-car', userCarRoute);
 app.use('/v1/admin-car', adminCarRoute);
 app.use('/v1/all-code', allCodeRoute);
+app.use('/v1/trip', tripRoute);
+app.use('/v1/', cityRoute);
 
 connectDB();
 
