@@ -84,7 +84,7 @@ export default function Driver(props){
       <div className='mt-4 d-flex justify-content-center'>
         {loading ? <div className="spinner-grow"></div> : <ButtonComponent btnType="btn-success" label="create driver account" onClick={createDriver} />}
       </div>
-      <h3 className='mt-5 sc-color fw-bold'>List driver</h3>
+      { driver.length > 0 && <h3 className='mt-5 sc-color fw-bold'>List driver</h3> }
       { driver.length > 0 && 
         <table className='table table-bordered table-hover' style={{border:"double",padding:"5px",borderColor:"#043d5d"}}>
           <thead className='text-center sc-background-color' style={{color:"white"}}>
