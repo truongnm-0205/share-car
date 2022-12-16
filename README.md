@@ -4,7 +4,7 @@ cd API/
 - install project
   + npm i
 - start project
-  + npm start
+  + npm run dev
 - create db
   + Create db name share_car
   + Edit config.json db password = your password
