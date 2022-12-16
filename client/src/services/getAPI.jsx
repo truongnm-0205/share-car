@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:8080';
+const baseURL = 'https://sharecar-api.onrender.com';
 
 export function postToServer(url, bodyObject) {
 	return new Promise((resolve, reject) =>
