@@ -1,4 +1,4 @@
-import carServices from '../services/carServices';
+const  carServices = require('../services/carServices');
 
 const carController = {
 	registerNewCar: async (req, res) => {
@@ -73,4 +73,4 @@ const carController = {
 		}
 	},
 };
-export default carController;
+module.exports = carController;

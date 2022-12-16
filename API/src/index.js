@@ -1,15 +1,15 @@
-import express from 'express';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import cookieParser from 'cookie-parser';
-import connectDB from './config/connectDB';
-import authRoute from './routes/auth';
-import userRoute from './routes/user';
-import userCarRoute from './routes/userCar';
-import adminCarRoute from './routes/adminCar';
-import allCodeRoute from './routes/allCode';
-import cityRoute from './routes/city';
-import tripRoute from './routes/trip';
+const express = require('express');
+const cors = require('cors');
+const dotenv = require('dotenv');
+const cookieParser = require( 'cookie-parser');
+//import connectDB from './config/connectDB';
+const authRoute = require( './routes/auth');
+const userRoute = require('./routes/user') ;
+const userCarRoute = require('./routes/userCar') ;
+const adminCarRoute = require( './routes/adminCar');
+const allCodeRoute = require('./routes/allCode') ;
+const cityRoute = require('./routes/city') ;
+const tripRoute = require( './routes/trip');
 dotenv.config();
 
 const app = express();
@@ -33,6 +33,17 @@ app.use(cors());
 // 	// Pass to next layer of middleware
 // 	next();
 // });
+
+const { sequelize } = require('./models/index');
+
+let connectDB = async () => {
+	try {
+		await sequelize.authenticate();
+		console.log('Connection has been established successfully.');
+	} catch (error) {
+		console.error('Unable to connect to the database:', error);
+	}
+};
 
 app.use(cookieParser());
 app.use(express.json());

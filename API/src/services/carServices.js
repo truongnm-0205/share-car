@@ -1,5 +1,5 @@
-import { where } from 'sequelize';
-import db from '../models';
+const { where } = require( 'sequelize');
+const db = require( '../models');
 
 const carServices = {
 	/**
@@ -155,4 +155,4 @@ const carServices = {
 		});
 	},
 };
-export default carServices;
+module.exports = carServices;

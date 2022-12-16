@@ -1,6 +1,6 @@
-import express from 'express';
-import carController from '../controllers/carController';
-import middlewareController from '../middleware/middlewareController';
+const express = require( 'express');
+const carController = require( '../controllers/carController');
+const middlewareController = require( '../middleware/middlewareController');
 
 const router = express.Router();
 
@@ -11,4 +11,4 @@ router.post('/', middlewareController.verifyToken, carController.getAllCarForUse
 // xóa carId
 router.delete('/:carId', middlewareController.verifyToken, carController.deleteCarForUser);
 
-export default router;
+module.exports = router;

@@ -1,6 +1,6 @@
-import express from 'express';
-import tripController from '../controllers/tripController';
-import middlewareController from '../middleware/middlewareController';
+const express= require( 'express');
+const tripController= require( '../controllers/tripController');
+const middlewareController= require( '../middleware/middlewareController');
 
 const router = express.Router();
 
@@ -8,4 +8,4 @@ const router = express.Router();
 router.post('/register-trip', middlewareController.verifyToken, tripController.createNewTrip);
 router.get('/', middlewareController.verifyToken, tripController.getAllTrip);
 
-export default router;
+module.exports = router;

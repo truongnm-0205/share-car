@@ -1,6 +1,6 @@
-import express from 'express';
-import userController from '../controllers/userController';
-import middlewareController from '../middleware/middlewareController';
+const express = require( 'express');
+const userController = require( '../controllers/userController');
+const middlewareController = require( '../middleware/middlewareController');
 
 const router = express.Router();
 
@@ -11,4 +11,4 @@ router.get('/:id', middlewareController.verifyToken, userController.profileUser)
 router.put('/update_profile', middlewareController.verifyToken, userController.updateUser);
 
 
-export default router;
+module.exports = router;

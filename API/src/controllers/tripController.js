@@ -1,5 +1,5 @@
-import db from '../models';
-import tripServices from '../services/tripServices';
+const db = require('../models');
+const tripServices = require('../services/tripServices');
 
 const tripController = {
 	createNewTrip: async (req, res) => {
@@ -42,4 +42,4 @@ const tripController = {
 		}
 	},
 };
-export default tripController;
+module.exports = tripController;

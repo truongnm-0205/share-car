@@ -1,4 +1,4 @@
-import userServices from '../services/userServices';
+const userServices = require( '../services/userServices');
 
 const userController = {
 	profileUser: async (req, res) => {
@@ -38,4 +38,4 @@ const userController = {
 		}
 	},
 };
-export default userController;
+module.exports = userController;

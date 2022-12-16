@@ -1,4 +1,4 @@
-import db from '../models';
+const db = require ('../models');
 
 const cityServices = {
 	getAllCity: async () => {
@@ -28,4 +28,4 @@ const cityServices = {
 		});
 	},
 };
-export default cityServices;
+module.exports = cityServices;

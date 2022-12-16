@@ -1,4 +1,4 @@
-import db from '../models';
+const db = require( '../models');
 
 const allCodeController = {
 	getAllCode: async (req, res) => {
@@ -9,4 +9,4 @@ const allCodeController = {
 		});
 	},
 };
-export default allCodeController;
+module.exports = allCodeController;

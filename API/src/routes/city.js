@@ -1,6 +1,6 @@
-import express from 'express';
+const express = require('express');
 
-import cityController from '../controllers/cityController';
+const cityController = require('../controllers/cityController');
 
 const router = express.Router();
 
@@ -8,4 +8,4 @@ const router = express.Router();
 router.get('/city', cityController.getAllCity);
 router.get('/district', cityController.getAllDistrict);
 
-export default router;
+module.exports = router;

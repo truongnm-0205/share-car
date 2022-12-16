@@ -1,5 +1,5 @@
-import db from '../models/index';
-import bcrypt from 'bcrypt';
+const db = require( '../models/index');
+const bcrypt = require( 'bcrypt');
 
 const salt = bcrypt.genSaltSync(10);
 
@@ -129,4 +129,4 @@ const userServices = {
 		});
 	},
 };
-export default userServices;
+module.exports = userServices;

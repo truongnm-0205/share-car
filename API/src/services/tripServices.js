@@ -1,5 +1,5 @@
-import db from '../models';
-import { Op } from 'sequelize';
+const db  = require( '../models');
+const { Op }  = require( 'sequelize');
 const tripServices = {
 	createNewTrip: async (userId, data) => {
 		// khi người dùng  đăng kí nhưng role
@@ -104,4 +104,4 @@ const tripServices = {
 		});
 	},
 };
-export default tripServices;
+module.exports = tripServices;

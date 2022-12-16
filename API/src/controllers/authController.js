@@ -1,7 +1,7 @@
-import jwt from 'jsonwebtoken';
-import { json } from 'sequelize';
-import db from '../models';
-import userServices from '../services/userServices';
+const jwt=require( 'jsonwebtoken');
+const { json }=require( 'sequelize');
+const db=require( '../models');
+const userServices=require( '../services/userServices');
 
 const authController = {
 	registerUser: async (req, res) => {
@@ -120,4 +120,4 @@ const authController = {
 		res.status(200).json({ status: 'Logout Succeed' });
 	},
 };
-export default authController;
+module.exports = authController;

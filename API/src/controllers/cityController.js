@@ -24,4 +24,4 @@ const cityController = {
 		}
 	},
 };
-export default cityController;
+module.exports = cityController;
