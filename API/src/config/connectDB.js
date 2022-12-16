@@ -1,16 +1,16 @@
-import { Sequelize } from 'sequelize';
+// import { Sequelize } from 'sequelize';
 
-const sequelize = new Sequelize('share_car', 'root', 'nhatnguyen150100', {
-	host: 'localhost',
-	dialect: 'mysql',
-	logging: false,
-	dialectOptions: {
-		ssl: {
-			require: true,
-			rejectUnauthorized: false,
-		},
-	},
-});
+// const sequelize = new Sequelize('share_car', 'root', 'nhatnguyen150100', {
+// 	host: 'localhost',
+// 	dialect: 'mysql',
+// 	logging: false,
+// 	dialectOptions: {
+// 		ssl: {
+// 			require: true,
+// 			rejectUnauthorized: false,
+// 		},
+// 	},
+// });
 // const sequelize = new Sequelize(
 // 	'd5c96to8p0fn02',
 // 	'fiwbkaklqwyave',
@@ -22,6 +22,7 @@ const sequelize = new Sequelize('share_car', 'root', 'nhatnguyen150100', {
 // 		port: '5432',
 // 	},
 // );
+const { sequelize } = require('../models/index');
 
 let connectDB = async () => {
 	try {

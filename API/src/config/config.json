@@ -1,34 +1,32 @@
 {
   "development": {
-    "username": "root",
-    "password": "nhatnguyen150100",
-    "database": "share_car",
-    "host": "localhost",
-    "dialect": "mysql",
-    "logging": false,
-    "query": {
-      "raw": true
-    },
-    "timezone": "+07:00",
+    "url": "postgres://root:qtipXVdvQCQHnbqjOYmEiwhDeZfFkNTi@dpg-cedvgfpa6gdgn5fkm4tg-a.singapore-postgres.render.com/share_car_8c88",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  },
+
+  "test": {
+    "url": "127.0.0.1",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  },
+
+  "production": {
+    "url": "process.env.DATABASE_URL",
+    "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
         "require": true,
         "rejectUnauthorized": false
       }
     }
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
   }
 }
